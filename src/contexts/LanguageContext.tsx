@@ -18,6 +18,7 @@ const translations = {
     'nav.about': 'Sobre mí',
     'nav.projects': 'Proyectos',
     'nav.contact': 'Contacto',
+    'nav.resume': 'CV',
     
     // Hero
     'hero.hello': 'Hola',
@@ -73,6 +74,7 @@ const translations = {
     'nav.about': 'About',
     'nav.projects': 'Projects',
     'nav.contact': 'Contact',
+    'nav.resume': 'Resume',
     
     // Hero
     'hero.hello': 'Hello',

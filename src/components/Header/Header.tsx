@@ -56,7 +56,7 @@ export function Header() {
             {language === 'es' ? 'EN' : 'ES'}
           </button>
           <a href={Resume} download className="button">
-            Resume
+            {t('nav.resume')}
           </a>
         </nav>
         <div
