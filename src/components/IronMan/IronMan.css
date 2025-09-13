@@ -41,26 +41,18 @@
 
 /* Body and Wrappers */
 .wrapper {
-  bottom: 0;
-  left: -100px;
-  margin: auto;
-  position: absolute;
-  right: 0;
-  top: 0; 
+  position: relative;
   height: 205px;
   width: 161px;
+  margin: 0 auto;
 }
 
 .iron-man-wrapper {
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  position: absolute;
-  right: 0;
-  top: 0; 
+  position: relative;
   height: 198px;
-  width: 161px; 
+  width: 161px;
   z-index: 2;
+  margin: 0 auto;
   animation-duration: 15s; 
   -webkit-animation-duration: 15s;
   animation-timing-function: linear;  

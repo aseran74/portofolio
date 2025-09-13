@@ -13,9 +13,10 @@ export const Container = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 200px;
     height: 200px;
     position: relative;
+    margin: 0 auto;
   }
 
   /* Solo visible en móvil */
@@ -29,6 +30,7 @@ export const Container = styled.section`
     
     .iron-man-wrapper {
       height: 150px;
+      width: 150px;
     }
   }
 `;
