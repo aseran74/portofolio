@@ -8,10 +8,14 @@ import { Analytics } from "@vercel/analytics/react"
 import { LanguageProvider } from './contexts/LanguageContext'
 
 import 'react-toastify/dist/ReactToastify.css'
+
+// Type assertion to fix GlobalStyle component issue
+const GlobalStyleComponent = GlobalStyle as React.ComponentType
+
 function App() {
   return (
     <LanguageProvider>
-      <GlobalStyle />
+      <GlobalStyleComponent />
       <Header></Header>
       <Main></Main>
       <Analytics />
