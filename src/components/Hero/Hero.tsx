@@ -9,30 +9,35 @@ import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
 import { IronMan } from '../IronMan/IronMan'
 import { useLanguage } from '../../contexts/LanguageContext'
+import React from 'react';
+
+// Type assertion to fix ScrollAnimation component issue
+const ScrollAnimationComponent = ScrollAnimation as React.ComponentType<any>;
+
 export function Hero() {
   const { t } = useLanguage()
   
   return (
     <Container id="home">
       <div className="hero-text">
-        <ScrollAnimation animateIn="fadeInUp">
+        <ScrollAnimationComponent animateIn="fadeInUp">
           <p>{t('hero.hello')} <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+        </ScrollAnimationComponent>
+        <ScrollAnimationComponent animateIn="fadeInUp" delay={0.2 * 1000}>
           <h1>{t('hero.name')}</h1>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
+        </ScrollAnimationComponent>
+        <ScrollAnimationComponent animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>{t('hero.title')}</h3>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
+        </ScrollAnimationComponent>
+        <ScrollAnimationComponent animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume">{t('hero.description')}</p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+        </ScrollAnimationComponent>
+        <ScrollAnimationComponent animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
             <NavHashLink smooth to="#contact" className="button">{t('hero.contact')}</NavHashLink>
           </BrowserRouter>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
+        </ScrollAnimationComponent>
+        <ScrollAnimationComponent animateIn="fadeInUp" delay={1 * 1000}>
       <div className="social-media"><a
         href="https://www.linkedin.com/in/alvaro-serrano"
         target="_blank"
@@ -61,12 +66,12 @@ export function Hero() {
         >
           <img src={telegram} alt="telegram" />
         </a></div>
-        </ScrollAnimation>
+        </ScrollAnimationComponent>
       </div>
       <div className="hero-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
+        <ScrollAnimationComponent animateIn="fadeInRight" delay={1 * 1000}>
           <IronMan />
-        </ScrollAnimation>
+        </ScrollAnimationComponent>
       </div>
     </Container>
   )
