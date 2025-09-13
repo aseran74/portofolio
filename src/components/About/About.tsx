@@ -17,7 +17,7 @@ import { useLanguage } from '../../contexts/LanguageContext';
 import React from 'react';
 
 // Type assertion to fix ScrollAnimation component issue
-const ScrollAnimationComponent = ScrollAnimation as React.ComponentType<any>;
+const ScrollAnimationComponent = ScrollAnimation as unknown as React.ComponentType<any>;
 
 export function About() {
   const { t } = useLanguage()
