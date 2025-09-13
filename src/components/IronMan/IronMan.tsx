@@ -9,7 +9,7 @@ export function IronMan() {
     <div className="wrapper">
       <div className="iron-man-wrapper">
         <div className="tony-stark">
-          <img src="/Images/ironman-sintraje.png" alt="Tony Stark" />
+          <img src="/Images/ironman-sintraje2.png" alt="Tony Stark" />
         </div>
 
         <div className="arc-reactor">
