@@ -69,20 +69,12 @@ export const Container = styled.section`
     }
     
     .hero-image{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      margin-top: 3rem;
+      display: none;
     }
   }
 
   @media(max-width: 600px){
     margin-top: 35%;
-    
-    .hero-image{
-      margin-top: 2rem;
-    }
   }
   
   @media(max-width: 480px){
@@ -92,10 +84,6 @@ export const Container = styled.section`
       h1{
         font-size: 4rem;
       }
-    }
-    
-    .hero-image{
-      margin-top: 1.5rem;
     }
   }
 `
