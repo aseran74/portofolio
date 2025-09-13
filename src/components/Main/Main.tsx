@@ -2,8 +2,9 @@ import Particles from "react-tsparticles"
 import { Container } from "./styles";
 import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
-import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
+import { IronManSection } from "../IronManSection/IronManSection";
+import { Contact } from "../Contact/Contact";
 import python from "../../assets/python.svg"
 import java from "../../assets/java.svg"
 import wordpress from "../../assets/wordpress.svg";
@@ -265,6 +266,7 @@ export function Main() {
       <Hero></Hero>
       <About></About>
       <Project></Project>
+      <IronManSection></IronManSection>
       <Contact></Contact>
     </Container>
   );
