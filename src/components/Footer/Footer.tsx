@@ -12,9 +12,9 @@ export function Footer() {
   
   return (
     <Container className="footer">
-      <a href="https://alvaroserrano.com" className="logo">
-        <span>www.alvaro</span>
-        <span>serrano.com</span>
+      <a href="https://alvaroserranoportofolio.vercel.app/" className="logo">
+        <span>alvaroserrano</span>
+        <span>portofolio.vercel.app</span>
       </a>
       <div>
         <p>
@@ -51,7 +51,7 @@ export function Footer() {
           <img src={telegram} alt="telegram" />
         </a>
         <a
-          href="https://www.instagram.com/alvaroserrano.com"
+          href="https://alvaroserranoportofolio.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >

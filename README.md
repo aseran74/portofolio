@@ -1,6 +1,6 @@
 # Portfolio of Alvaro Serrano
 
-<img src ="https://github.com/AlvaroSerrano/AlvaroSerrano/blob/main/www.alvaroserrano.com.png" />
+<img src ="https://github.com/AlvaroSerrano/AlvaroSerrano/blob/main/alvaroserranoportofolio.vercel.app.png" />
  
 This project was created with CRA (Create React App)
 
