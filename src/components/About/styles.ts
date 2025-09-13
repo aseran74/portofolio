@@ -107,7 +107,8 @@ export const Container = styled.section`
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 5rem;
+        margin-top: 12rem;
+        padding: 0 2rem;
       }
     }
   }
@@ -132,7 +133,8 @@ export const Container = styled.section`
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 5rem;
+        margin-top: 12rem;
+        padding: 0 2rem;
       }
     }
   }
