@@ -3089,6 +3089,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-is@npm:^19":
+  version: 19.0.0
+  resolution: "@types/react-is@npm:19.0.0"
+  dependencies:
+    "@types/react": "npm:*"
+  checksum: 10c0/d5fa0294f95cf301540f3e28fb44c00524c74a7de3ef9757703d76067206f3ecc002da6486e1581f23b54173b6449db8631acc3088009116e4569ff216df3ecc
+  languageName: node
+  linkType: hard
+
 "@types/react-router-dom@npm:*":
   version: 5.3.2
   resolution: "@types/react-router-dom@npm:5.3.2"
@@ -3189,14 +3198,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/styled-components@npm:^5.1.18":
-  version: 5.1.18
-  resolution: "@types/styled-components@npm:5.1.18"
+"@types/styled-components@npm:^5.1.34":
+  version: 5.1.34
+  resolution: "@types/styled-components@npm:5.1.34"
   dependencies:
     "@types/hoist-non-react-statics": "npm:*"
     "@types/react": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/51d10f242f4b2a2f112d55cc440c4f3d828c8a41edf2941e911a487442b82c9e758152af539093fd4c568a614fa04576e148fb4ebac17c33339449ceea5d5b6a
+  checksum: 10c0/5bce93ea2c6161fc45daaf863eefdc20672e839ae486597c40b95e7978e249c160c1bc9706f56cb5152a7ef63cf485d15a9502889169ef945281f511e4b2d5a0
   languageName: node
   linkType: hard
 
@@ -4598,6 +4607,13 @@ __metadata:
   version: 1.2.2
   resolution: "cjs-module-lexer@npm:1.2.2"
   checksum: 10c0/83330e1feda2e3699b8c305bfa8f841b41822049393f5eefeb574e60bde556e2a251ee9b7971cde0cb47ac4f7823bf4ab4a6005b8471f86ad9f5509eefb66cbd
+  languageName: node
+  linkType: hard
+
+"classnames@npm:^2.5.1":
+  version: 2.5.1
+  resolution: "classnames@npm:2.5.1"
+  checksum: 10c0/afff4f77e62cea2d79c39962980bf316bacb0d7c49e13a21adaadb9221e1c6b9d3cdb829d8bb1b23c406f4e740507f37e1dcf506f7e3b7113d17c5bab787aa69
   languageName: node
   linkType: hard
 
@@ -9632,14 +9648,17 @@ __metadata:
     "@types/react-animate-on-scroll": "npm:^2.1.5"
     "@types/react-dom": "npm:^17.0.9"
     "@types/react-google-recaptcha": "npm:^2.1.2"
+    "@types/react-is": "npm:^19"
     "@types/react-router-hash-link": "npm:^2.4.4"
-    "@types/styled-components": "npm:^5.1.18"
+    "@types/styled-components": "npm:^5.1.34"
     "@types/validator": "npm:^13.7.1"
     "@vercel/analytics": "npm:^1.4.1"
+    classnames: "npm:^2.5.1"
     react: "npm:^17.0.2"
     react-animate-on-scroll: "npm:^2.1.5"
     react-dom: "npm:^17.0.2"
     react-google-recaptcha: "npm:^2.1.0"
+    react-is: "npm:^19.1.1"
     react-router-dom: "npm:^6.2.1"
     react-router-hash-link: "npm:^2.4.3"
     react-scripts: "npm:^5.0.1"
@@ -10825,6 +10844,13 @@ __metadata:
   version: 18.2.0
   resolution: "react-is@npm:18.2.0"
   checksum: 10c0/6eb5e4b28028c23e2bfcf73371e72cd4162e4ac7ab445ddae2afe24e347a37d6dc22fae6e1748632cd43c6d4f9b8f86dcf26bf9275e1874f436d129952528ae0
+  languageName: node
+  linkType: hard
+
+"react-is@npm:^19.1.1":
+  version: 19.1.1
+  resolution: "react-is@npm:19.1.1"
+  checksum: 10c0/3dba763fcd69835ae263dcd6727d7ffcc44c1d616f04b7329e67aefdc66a567af4f8dcecdd29454c7a707c968aa1eb85083a83fb616f01675ef25e71cf082f97
   languageName: node
   linkType: hard
 
