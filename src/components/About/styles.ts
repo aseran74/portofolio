@@ -86,6 +86,10 @@ export const Container = styled.section`
       background: linear-gradient(135deg, #8A2BE2, #9932CC);
       box-shadow: 0 8px 25px rgba(138, 43, 226, 0.3);
     }
+    
+    .iron-man-container {
+      display: none;
+    }
   }
 
   @media only screen and (max-width: 480px) {
@@ -97,6 +101,13 @@ export const Container = styled.section`
       .image-container {
         width: 150px;
         height: 150px;
+      }
+      
+      .iron-man-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
       }
     }
   }
@@ -116,9 +127,14 @@ export const Container = styled.section`
         width: 180px;
         height: 180px;
       }
+      
+      .iron-man-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+      }
     }
-    
-    
   }
 
 `

@@ -14,6 +14,7 @@ import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import { useLanguage } from '../../contexts/LanguageContext';
+import { IronMan } from '../IronMan/IronMan';
 import React from 'react';
 
 // Type assertion to fix ScrollAnimation component issue
@@ -129,6 +130,11 @@ export function About() {
         <ScrollAnimationComponent animateIn="fadeInRight" delay={0.25 * 1000}>
           <div className="image-container purple-circle">
             <img src="/Images/portofolio3.png" alt="Alvaro Serrano" />
+          </div>
+        </ScrollAnimationComponent>
+        <ScrollAnimationComponent animateIn="fadeInUp" delay={0.3 * 1000}>
+          <div className="iron-man-container">
+            <IronMan />
           </div>
         </ScrollAnimationComponent>
       </div>
