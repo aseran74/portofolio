@@ -1,0 +1,259 @@
+/* Iron Man Components */
+.iron-man-helmet {
+  height: 138px;
+  position: absolute;
+  top: -2px;
+  z-index: 4;
+  animation-duration: 15s; 
+  -webkit-animation-duration: 15s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;
+}
+
+.iron-man-helmet img { 
+  position: absolute;
+  z-index: 4;
+}
+
+.iron-man-chest {
+  bottom: 0;
+  left: 2px;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 108px; 
+  height: 64px;
+  width: 118px;
+  z-index: 3;
+  animation-duration: 15s; 
+  -webkit-animation-duration: 15s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+}
+
+.iron-man-chest img { 
+  position: absolute;
+  z-index: 3;
+}
+
+.iron-man-left-arm {
+  height: 41px;
+  left: 14px;
+  position: absolute;
+  top: 126px;
+  width: 43px;
+  z-index: 2;
+  animation-duration: 15s; 
+  -webkit-animation-duration: 15s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: slideRight;
+  -webkit-animation-name: slideRight;
+}
+
+.iron-man-left-arm img { 
+  position: absolute;
+  z-index: 2;
+}
+
+.iron-man-right-arm {
+  height: 41px;
+  right: 11px;
+  position: absolute;
+  top: 126px;
+  width: 43px;
+  z-index: 2;
+  animation-duration: 15s; 
+  -webkit-animation-duration: 15s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: slideLeft;
+  -webkit-animation-name: slideLeft; 
+}
+
+.iron-man-right-arm img { 
+  position: absolute;
+  z-index: 2;
+}
+
+.iron-man-left-leg {
+  bottom: -11px;
+  height: 54px;
+  position: absolute;
+  width: 34px;
+  left: 44px;
+  transform: rotate(24deg);
+  z-index: 2;
+  animation-duration: 15s; 
+  -webkit-animation-duration: 15s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: slideUpRotateLeft;
+  -webkit-animation-name: slideUpRotateLeft;    
+}
+
+.iron-man-left-leg img { 
+  position: absolute;
+  z-index: 2;
+}
+
+.iron-man-right-leg {
+  bottom: -11px;
+  height: 54px;
+  position: absolute;
+  width: 34px;
+  right: 44px;
+  transform: rotate(-24deg);
+  z-index: 2;
+  animation-duration: 15s; 
+  -webkit-animation-duration: 15s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: slideUpRotateRight;
+  -webkit-animation-name: slideUpRotateRight;    
+}
+
+.iron-man-right-leg img { 
+  position: absolute;
+  z-index: 2;
+}
+
+/* Keyframe Animations */
+@keyframes disappearWhenSuited {
+  25% {
+    visibility: hidden;
+  }
+  85% {
+    visibility: hidden;
+  }
+  86% {
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes disappearWhenSuited {
+  25% {
+    visibility: hidden;
+  }
+  85% {
+    visibility: hidden;
+  }
+  86% {
+    visibility: visible;
+  }
+}
+
+@keyframes flyAway {
+  0% {
+    transform: translateY(0%);
+  }
+  27% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-300%);
+  }
+  80% {
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes flyAway {
+  0% {
+    transform: translateY(0%);
+  }
+  27% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-300%);
+  }
+  80% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.8;   
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1; 
+  } 
+  100% {
+    transform: scale(0.9);
+    opacity: 0.8; 
+  }     
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.9);
+    opacity: 0.8;   
+  }
+  50% {
+    -webkit-transform: scale(1);
+    opacity: 1; 
+  } 
+  100% {
+    -webkit-transform: scale(0.9);
+    opacity: 0.8; 
+  }     
+}
+
+@keyframes shadow {
+  0% {
+    background-color: #444;
+    transform: scale(1);
+  }
+  27% {
+    background-color: #444;
+    transform: scale(1);
+  }
+  50% {
+    background-color: #F2F2F2;
+    transform: scale(0);
+  }
+  80% {
+    background-color: #444;
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes shadow {
+  0% {
+    background-color: #444;
+    transform: scale(1);
+  }
+  27% {
+    background-color: #444;
+    transform: scale(1);
+  }
+  50% {
+    background-color: #F2F2F2;
+    transform: scale(0);
+  }
+  80% {
+    background-color: #444;
+    transform: scale(1);
+  }
+}
+

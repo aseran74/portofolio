@@ -38,6 +38,30 @@ export const Container = styled.header`
       }
     }
 
+    .language-button {
+      background: var(--green);
+      color: white;
+      border: none;
+      padding: 0.6rem 1rem;
+      border-radius: 20px;
+      font-family: 'Red Hat Display', sans-serif;
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      min-width: 40px;
+
+      &:hover {
+        background: var(--pink);
+        transform: scale(1.05);
+      }
+
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+
   }
 
   .menu-container{

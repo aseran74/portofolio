@@ -47,29 +47,57 @@ export const Container = styled.section`
 
   .about-image{
     text-align: center;
-   img{
-     margin-top: 2rem;
-     width: 75%;
-     filter: grayscale(0);
-     transition: filter 0.5s;
-     &:hover{
-       filter: grayscale(0);
-     }
-   }
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+    .image-container {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease;
+      
+      &:hover {
+        transform: scale(1.05);
+      }
+      
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        filter: grayscale(0);
+        transition: filter 0.5s;
+      }
+    }
+    
+    .yellow-circle {
+      background: linear-gradient(135deg, #FFD700, #FFA500);
+      box-shadow: 0 8px 25px rgba(255, 215, 0, 0.3);
+    }
+    
+    .purple-circle {
+      background: linear-gradient(135deg, #8A2BE2, #9932CC);
+      box-shadow: 0 8px 25px rgba(138, 43, 226, 0.3);
+    }
   }
 
   @media only screen and (max-width: 480px) {
     .about-image {
       max-width: 100%;
       margin-top: 4rem;
-      img{
-        margin-top: 2rem;
-        width: 100%;
-        filter: grayscale(0);
-        transition: filter 0.5s;
-        &:hover{
-          filter: grayscale(0);
-        }
+      gap: 1.5rem;
+      
+      .image-container {
+        width: 150px;
+        height: 150px;
+      }
     }
   }
 
@@ -81,16 +109,13 @@ export const Container = styled.section`
       justify-content: center;
     }
     .about-image{
-      display: flex;
       max-width: 100%;
-      img{
-        margin-top: 2rem;
-        width: 100%;
-        filter: grayscale(0);
-        transition: filter 0.5s;
-        &:hover{
-          filter: grayscale(0);
-        }
+      gap: 1.5rem;
+      
+      .image-container {
+        width: 180px;
+        height: 180px;
+      }
     }
     
     

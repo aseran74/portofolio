@@ -47,6 +47,21 @@ export const Container = styled.section`
         }
       }
       
+      .project-image {
+        margin-bottom: 2rem;
+        border-radius: 0.8rem;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+          transition: transform 0.3s ease;
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+
       h3{
         margin-bottom: 2rem;
       }

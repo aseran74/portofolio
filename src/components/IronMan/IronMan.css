@@ -1,0 +1,227 @@
+/* Iron Man Animation - Original Code Adapted */
+
+/* Shared Components */
+.absolute-center {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; 
+}
+
+.animation-settings {
+  animation-duration: 15s; 
+  -webkit-animation-duration: 15s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.flame {
+  background-color: #1AA3FF;
+  border-bottom-right-radius: 50% 75%;
+  border-bottom-left-radius: 50% 75%;
+  border-top-left-radius: 20% 20%;
+  border-top-right-radius: 20% 20%;
+  box-shadow: 0px 2px 2px 1px #1AA3FF;
+  height: 12px;
+  opacity: 0;
+  position: absolute;
+  width: 7px;
+  z-index: 1;
+  animation-duration: 15s; 
+  -webkit-animation-duration: 15s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+/* Body and Wrappers */
+.wrapper {
+  bottom: 0;
+  left: -100px;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; 
+  height: 205px;
+  width: 161px;
+}
+
+.iron-man-wrapper {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; 
+  height: 198px;
+  width: 161px; 
+  z-index: 2;
+  animation-duration: 15s; 
+  -webkit-animation-duration: 15s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: flyAway;
+  -webkit-animation-name: flyAway;
+}
+
+/* Inner Components */
+.tony-stark {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; 
+  width: 150px;
+  animation-duration: 15s; 
+  -webkit-animation-duration: 15s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: disappearWhenSuited;
+  -webkit-animation-name: disappearWhenSuited;
+}
+
+.shadow {
+  bottom: -17px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: initial; 
+  background-color: #444;
+  border-radius: 50%;
+  height: 30px;
+  width: 161px;
+  z-index: 1;
+  animation-duration: 15s; 
+  -webkit-animation-duration: 15s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: shadow;
+  -webkit-animation-name: shadow;
+}
+
+.arc-reactor {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 92px; 
+  height: 17px;
+  width: 17px;
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+  animation-duration: 2s; 
+  -webkit-animation-duration: 2s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+/* Flames */
+.flame-left-hand {
+  background-color: #1AA3FF;
+  border-bottom-right-radius: 50% 75%;
+  border-bottom-left-radius: 50% 75%;
+  border-top-left-radius: 20% 20%;
+  border-top-right-radius: 20% 20%;
+  box-shadow: 0px 2px 2px 1px #1AA3FF;
+  height: 12px;
+  opacity: 0;
+  position: absolute;
+  width: 7px;
+  z-index: 1;
+  left: 8px;
+  top: 38px;
+  animation-duration: 15s; 
+  -webkit-animation-duration: 15s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: flicker-1;
+  -webkit-animation-name: flicker-1;
+}
+
+.flame-right-hand {
+  background-color: #1AA3FF;
+  border-bottom-right-radius: 50% 75%;
+  border-bottom-left-radius: 50% 75%;
+  border-top-left-radius: 20% 20%;
+  border-top-right-radius: 20% 20%;
+  box-shadow: 0px 2px 2px 1px #1AA3FF;
+  height: 12px;
+  opacity: 0;
+  position: absolute;
+  width: 7px;
+  z-index: 1;
+  right: 8px;
+  top: 38px;
+  animation-duration: 15s; 
+  -webkit-animation-duration: 15s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: flicker-2;
+  -webkit-animation-name: flicker-2;
+}
+
+.flame-left-leg {
+  background-color: #1AA3FF;
+  border-bottom-right-radius: 50% 75%;
+  border-bottom-left-radius: 50% 75%;
+  border-top-left-radius: 20% 20%;
+  border-top-right-radius: 20% 20%;
+  box-shadow: 0px 2px 2px 1px #1AA3FF;
+  height: 12px;
+  opacity: 0;
+  position: absolute;
+  width: 7px;
+  z-index: 1;
+  left: 14px;
+  bottom: -9px;
+  animation-duration: 15s; 
+  -webkit-animation-duration: 15s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: flicker-3;
+  -webkit-animation-name: flicker-3;
+}
+
+.flame-right-leg {
+  background-color: #1AA3FF;
+  border-bottom-right-radius: 50% 75%;
+  border-bottom-left-radius: 50% 75%;
+  border-top-left-radius: 20% 20%;
+  border-top-right-radius: 20% 20%;
+  box-shadow: 0px 2px 2px 1px #1AA3FF;
+  height: 12px;
+  opacity: 0;
+  position: absolute;
+  width: 7px;
+  z-index: 1;
+  right: 14px;
+  bottom: -9px;
+  animation-duration: 15s; 
+  -webkit-animation-duration: 15s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: flicker-4;
+  -webkit-animation-name: flicker-4;
+}

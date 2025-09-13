@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.webp";
+// import Portofolio from "../../assets/Portofolio.png";
 import python from "../../assets/python.svg"
 import java from "../../assets/java.svg"
 import wordpress from "../../assets/wordpress.svg";
@@ -13,47 +13,50 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+import { useLanguage } from '../../contexts/LanguageContext';
 
 export function About() {
+  const { t } = useLanguage()
+  
   return (
     <Container id="about">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
-          <h2>About me</h2>
+          <h2>{t('about.title')}</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinayak, an enthusiastic Software Engineer skilled in web development, machine learning, and scalable software solutions
+            {t('about.description1')}
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            I build responsive web applications, fine-tune ML models, and implement robust backend services.
+            {t('about.description2')}
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            I also work with CMS platforms like WordPress and Shopify to streamline content management.
+            {t('about.description3')}
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
-            <h3>Education:</h3>
-            <h4> Master of Computer Applications (MCA)</h4>
-            <p>Vellore Institute of Technology, Chennai | July 2023 - Present</p>
-            <p>8.09 CGPA</p>
+            <h3>{t('about.education')}</h3>
+            <h4>{t('about.education.degree')}</h4>
+            <p>{t('about.education.school')}</p>
+            <p>{t('about.education.gpa')}</p>
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
-             <h3>Experience:</h3><h4>Software Developer</h4>
-            <p>KIWIS AND BROWNIES IT SOLUTIONS | October 2024 - Present</p>
-            <p>Bangalore, India</p>
+             <h3>{t('about.experience')}</h3><h4>{t('about.experience.title')}</h4>
+            <p>{t('about.experience.company')}</p>
+            <p>{t('about.experience.location')}</p>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
-          <h3>Here are my main skills:</h3>
+          <h3>{t('about.skills')}</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           <div className="hability">
@@ -115,7 +118,14 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <div className="image-container yellow-circle">
+            <img src="/Images/Portofolio.png" alt="Alvaro Serrano" />
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.25 * 1000}>
+          <div className="image-container purple-circle">
+            <img src="/Images/portofolio3.png" alt="Alvaro Serrano" />
+          </div>
         </ScrollAnimation>
       </div>
     </Container>

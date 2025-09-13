@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   padding-top: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
   display: flex;
   justify-content: space-between;
   gap: 8rem;
@@ -46,6 +48,10 @@ export const Container = styled.section`
   }
 
   .hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
     img{
       max-width: 500px;
     }
