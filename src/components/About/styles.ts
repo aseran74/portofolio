@@ -104,11 +104,7 @@ export const Container = styled.section`
       }
       
       .iron-man-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 12rem;
-        padding: 0 2rem;
+        display: none;
       }
     }
   }
@@ -130,11 +126,7 @@ export const Container = styled.section`
       }
       
       .iron-man-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 12rem;
-        padding: 0 2rem;
+        display: none;
       }
     }
   }
