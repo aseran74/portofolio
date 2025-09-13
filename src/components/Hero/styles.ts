@@ -69,14 +69,33 @@ export const Container = styled.section`
     }
     
     .hero-image{
-      display: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-top: 3rem;
     }
   }
 
   @media(max-width: 600px){
     margin-top: 35%;
+    
+    .hero-image{
+      margin-top: 2rem;
+    }
   }
+  
   @media(max-width: 480px){
     margin-top: 45%;
+    
+    .hero-text{
+      h1{
+        font-size: 4rem;
+      }
+    }
+    
+    .hero-image{
+      margin-top: 1.5rem;
+    }
   }
 `

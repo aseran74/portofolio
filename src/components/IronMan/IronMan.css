@@ -225,3 +225,126 @@
   animation-name: flicker-4;
   -webkit-animation-name: flicker-4;
 }
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .wrapper {
+    height: 150px;
+    width: 120px;
+    left: -50px;
+  }
+  
+  .iron-man-wrapper {
+    height: 150px;
+    width: 120px;
+  }
+  
+  .tony-stark {
+    width: 110px;
+  }
+  
+  .shadow {
+    height: 22px;
+    width: 120px;
+    bottom: -12px;
+  }
+  
+  .arc-reactor {
+    top: 70px;
+    height: 13px;
+    width: 13px;
+  }
+  
+  .flame-left-hand,
+  .flame-right-hand {
+    height: 9px;
+    width: 5px;
+  }
+  
+  .flame-left-hand {
+    left: 6px;
+    top: 28px;
+  }
+  
+  .flame-right-hand {
+    right: 6px;
+    top: 28px;
+  }
+  
+  .flame-left-leg,
+  .flame-right-leg {
+    height: 9px;
+    width: 5px;
+  }
+  
+  .flame-left-leg {
+    left: 10px;
+    bottom: -7px;
+  }
+  
+  .flame-right-leg {
+    right: 10px;
+    bottom: -7px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    height: 120px;
+    width: 95px;
+    left: -30px;
+  }
+  
+  .iron-man-wrapper {
+    height: 120px;
+    width: 95px;
+  }
+  
+  .tony-stark {
+    width: 85px;
+  }
+  
+  .shadow {
+    height: 18px;
+    width: 95px;
+    bottom: -10px;
+  }
+  
+  .arc-reactor {
+    top: 55px;
+    height: 10px;
+    width: 10px;
+  }
+  
+  .flame-left-hand,
+  .flame-right-hand {
+    height: 7px;
+    width: 4px;
+  }
+  
+  .flame-left-hand {
+    left: 5px;
+    top: 22px;
+  }
+  
+  .flame-right-hand {
+    right: 5px;
+    top: 22px;
+  }
+  
+  .flame-left-leg,
+  .flame-right-leg {
+    height: 7px;
+    width: 4px;
+  }
+  
+  .flame-left-leg {
+    left: 8px;
+    bottom: -5px;
+  }
+  
+  .flame-right-leg {
+    right: 8px;
+    bottom: -5px;
+  }
+}
