@@ -1,16 +1,41 @@
 import { Container } from './styles'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Resume from '../../assets/Alvaro_Serrano_Resume.pdf'
 import { useLanguage } from '../../contexts/LanguageContext'
 export function Header() {
   const [isActive, setActive] = useState(false)
+  const [isLightTheme, setIsLightTheme] = useState(false)
   const { language, setLanguage, t } = useLanguage()
   
+  // Cargar tema guardado al montar el componente
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme')
+    const html = document.getElementsByTagName('html')[0]
+    
+    if (savedTheme === 'light') {
+      html.classList.add('light')
+      setIsLightTheme(true)
+    } else {
+      html.classList.remove('light')
+      setIsLightTheme(false)
+    }
+  }, [])
+  
   function toggleTheme() {
-    let html = document.getElementsByTagName('html')[0]
-    html.classList.toggle('light')
+    const html = document.getElementsByTagName('html')[0]
+    const newTheme = !isLightTheme
+    
+    if (newTheme) {
+      html.classList.add('light')
+      localStorage.setItem('theme', 'light')
+    } else {
+      html.classList.remove('light')
+      localStorage.setItem('theme', 'dark')
+    }
+    
+    setIsLightTheme(newTheme)
   }
   
   function closeMenu() {
@@ -33,6 +58,7 @@ export function Header() {
           type="checkbox"
           id="switch"
           name="mode"
+          checked={isLightTheme}
         />
         <label htmlFor="switch">Toggle</label>
         <nav className={isActive ? 'active' : ''}>
