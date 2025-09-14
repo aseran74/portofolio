@@ -87,13 +87,13 @@ const translations = {
     'about.title': 'About me',
     'about.description1': 'Hi there! I\'m Alvaro, an enthusiastic Software Developer specialized in web development, React Vite development, Angular and Vue, as databases I only work with Supabase and MongoDB using MCP connections most of the time to connect everything, currently studying AWS and Python.',
     'about.education': 'Education:',
-    'about.education.degree': 'Master of Computer Applications (MCA)',
-    'about.education.school': 'Vellore Institute of Technology, Chennai | July 2023 - Present',
+    'about.education.degree': 'Certificado Mongo DB bootcamp ',
+    'about.education.school': 'Fullstack Developer Ironhack (MCA) ',
     'about.education.gpa': '8.09 CGPA',
     'about.experience': 'Experience:',
     'about.experience.title': 'Software Developer',
-    'about.experience.company': 'KIWIS AND BROWNIES IT SOLUTIONS | October 2024 - Present',
-    'about.experience.location': 'Bangalore, India',
+    'about.experience.company': 'Freelance | October 2024 - Present',
+    'about.experience.location': 'Madrid , Spain',
     'about.skills': 'Here are my main skills:',
     
     // Projects
