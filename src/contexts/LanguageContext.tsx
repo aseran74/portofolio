@@ -30,9 +30,9 @@ const translations = {
     
     // About
     'about.title': 'Sobre mí',
-    'about.description1': '¡Hola! Soy Alvaro, un Desarrollador de Software entusiasta especializado en desarrollo web, machine learning y soluciones de software escalables',
-    'about.description2': 'Construyo aplicaciones web responsivas, optimizo modelos de ML e implemento servicios backend robustos.',
-    'about.description3': 'También trabajo con plataformas CMS como WordPress y Shopify para optimizar la gestión de contenido.',
+    'about.description1': '¡Hola! Soy Alvaro, un Desarrollador de Software entusiasta especializado en desarrollo web, desarrollo con React Vite, Angular y Vue, como bases de datos solo funciono con Supabase y con MongoDB utilizando la mayoría de las veces conexiones MCP para conectar todo, actualmente estudio AWS y Python tambien soy experto en elementor y Wordpress.',
+    'about.description2': '',
+    'about.description3': '',
     'about.education': 'Educación:',
     'about.education.degree': 'Master of Computer Applications (MCA)',
     'about.education.school': 'Vellore Institute of Technology, Chennai | Julio 2023 - Presente',
@@ -86,9 +86,9 @@ const translations = {
     
     // About
     'about.title': 'About me',
-    'about.description1': 'Hi there! I\'m Alvaro, an enthusiastic Software Engineer skilled in web development, machine learning, and scalable software solutions',
-    'about.description2': 'I build responsive web applications, fine-tune ML models, and implement robust backend services.',
-    'about.description3': 'I also work with CMS platforms like WordPress and Shopify to streamline content management.',
+    'about.description1': 'Hi there! I\'m Alvaro, an enthusiastic Software Developer specialized in web development, React Vite development, Angular and Vue, as databases I only work with Supabase and MongoDB using MCP connections most of the time to connect everything, currently studying AWS and Python.',
+    'about.description2': '',
+    'about.description3': '',
     'about.education': 'Education:',
     'about.education.degree': 'Master of Computer Applications (MCA)',
     'about.education.school': 'Vellore Institute of Technology, Chennai | July 2023 - Present',
