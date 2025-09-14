@@ -39,14 +39,14 @@ export function Hero() {
         </ScrollAnimationComponent>
         <ScrollAnimationComponent animateIn="fadeInUp" delay={1 * 1000}>
       <div className="social-media"><a
-        href="https://www.linkedin.com/in/alvaro-serrano"
+        href="https://www.linkedin.com/in/alvaro-serrano-sanchez-8348a41b/"
         target="_blank"
         rel="noreferrer"
       >
         <img src={linkedin} alt="Linkedin" />
       </a>
         <a
-          href="https://github.com/AlvaroSerrano/"
+          href="https://github.com/aseran74"
           target="_blank"
           rel="noreferrer"
         >
@@ -60,7 +60,7 @@ export function Hero() {
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="https://t.me/AlvaroSerrano"
+          href="https://t.me/+34616462861"
           target="_blank"
           rel="noreferrer"
         >

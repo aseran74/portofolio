@@ -4,7 +4,6 @@ import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import telegram from '../../assets/telegram.svg'
-import instagramIcon from '../../assets/instagram.svg'
 import { useLanguage } from '../../contexts/LanguageContext'
 
 export function Footer() {
@@ -23,14 +22,14 @@ export function Footer() {
       </div>
       <div className="social-media">
         <a
-          href="https://www.linkedin.com/in/alvaro-serrano"
+          href="https://www.linkedin.com/in/alvaro-serrano-sanchez-8348a41b/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={linkedin} alt="Linkedin" />
         </a>
         <a
-          href="https://github.com/AlvaroSerrano/"
+          href="https://github.com/aseran74"
           target="_blank"
           rel="noreferrer"
         >
@@ -44,18 +43,11 @@ export function Footer() {
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="https://t.me/AlvaroSerrano"
+          href="https://t.me/+34616462861"
           target="_blank"
           rel="noreferrer"
         >
           <img src={telegram} alt="telegram" />
-        </a>
-        <a
-          href="https://alvaroserranoportofolio.vercel.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={instagramIcon} alt="Instagram" />
         </a>
       </div>
     </Container>

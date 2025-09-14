@@ -30,17 +30,17 @@ const translations = {
     
     // About
     'about.title': 'Sobre mí',
-    'about.description1': '¡Hola! Soy Alvaro, un Desarrollador de Software entusiasta especializado en desarrollo web, desarrollo con React Vite, Angular y Vue, como bases de datos solo funciono con Supabase y con MongoDB utilizando la mayoría de las veces conexiones MCP para conectar todo, actualmente estudio AWS y Python tambien soy experto en elementor y Wordpress.',
+    'about.description1': '¡Hola! Soy Alvaro, un Desarrollador de Software entusiasta especializado en desarrollo web, desarrollo con React Vite, Angular y Vue,(De Next ni lo mentes es imposible hacer nada con este framework) como bases de datos solo funciono con Supabase y con MongoDB utilizando la mayoría de las veces conexiones MCP para conectar todo, actualmente estudio AWS y Python tambien soy experto en elementor y Wordpress ,y sobretodo enamorado del tema Voxel con el que se puede adaptar todo .',
     'about.description2': '',
     'about.description3': '',
     'about.education': 'Educación:',
-    'about.education.degree': 'Master of Computer Applications (MCA)',
-    'about.education.school': 'Vellore Institute of Technology, Chennai | Julio 2023 - Presente',
+    'about.education.degree': 'Certificado en Mongo db  (MCA)',
+    'about.education.school': 'Bootcamp de desarrollo web Full Stack',
     'about.education.gpa': '8.09 CGPA',
     'about.experience': 'Experiencia:',
     'about.experience.title': 'Desarrollador de Software',
-    'about.experience.company': 'KIWIS AND BROWNIES IT SOLUTIONS | Octubre 2024 - Presente',
-    'about.experience.location': 'Bangalore, India',
+    'about.experience.company': 'Freelance  | Octubre 2024 - Presente',
+    'about.experience.location': 'Madrid, España',
     'about.skills': 'Estas son mis principales habilidades:',
     
     // Projects
