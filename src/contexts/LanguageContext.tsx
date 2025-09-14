@@ -31,8 +31,7 @@ const translations = {
     // About
     'about.title': 'Sobre mí',
     'about.description1': '¡Hola! Soy Alvaro, un Desarrollador de Software entusiasta especializado en desarrollo web, desarrollo con React Vite, Angular y Vue,(De Next ni lo mentes es imposible hacer nada con este framework) como bases de datos solo funciono con Supabase y con MongoDB utilizando la mayoría de las veces conexiones MCP para conectar todo, actualmente estudio AWS y Python tambien soy experto en elementor y Wordpress ,y sobretodo enamorado del tema Voxel con el que se puede adaptar todo .',
-    'about.description2': '',
-    'about.description3': '',
+ 
     'about.education': 'Educación:',
     'about.education.degree': 'Certificado en Mongo db  (MCA)',
     'about.education.school': 'Bootcamp de desarrollo web Full Stack',
@@ -87,8 +86,6 @@ const translations = {
     // About
     'about.title': 'About me',
     'about.description1': 'Hi there! I\'m Alvaro, an enthusiastic Software Developer specialized in web development, React Vite development, Angular and Vue, as databases I only work with Supabase and MongoDB using MCP connections most of the time to connect everything, currently studying AWS and Python.',
-    'about.description2': '',
-    'about.description3': '',
     'about.education': 'Education:',
     'about.education.degree': 'Master of Computer Applications (MCA)',
     'about.education.school': 'Vellore Institute of Technology, Chennai | July 2023 - Present',
