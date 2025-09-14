@@ -14,7 +14,6 @@ import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import { useLanguage } from '../../contexts/LanguageContext';
-import { IronMan } from '../IronMan/IronMan';
 import React from 'react';
 
 // Type assertion to fix ScrollAnimation component issue
@@ -34,7 +33,7 @@ export function About() {
             {t('about.description1')}
           </p>
         </ScrollAnimationComponent>
-        <ScrollAnimationComponent animateIn="fadeInLeft" delay={400}>
+        <ScrollAnimationComponent animateIn="fadeInLeft" delay={0.2 * 1000}>
           <div className="education">
             <h3>{t('about.education')}</h3>
             <h4>{t('about.education.degree')}</h4>
@@ -42,9 +41,10 @@ export function About() {
             <p>{t('about.education.gpa')}</p>
           </div>
         </ScrollAnimationComponent>
-        <ScrollAnimationComponent animateIn="fadeInLeft" delay={550}>
+        <ScrollAnimationComponent animateIn="fadeInLeft" delay={0.25 * 1000}>
           <div className="experience">
-             <h3>{t('about.experience')}</h3><h4>{t('about.experience.title')}</h4>
+            <h3>{t('about.experience')}</h3>
+            <h4>{t('about.experience.title')}</h4>
             <p>{t('about.experience.company')}</p>
             <p>{t('about.experience.location')}</p>
           </div>
@@ -120,11 +120,6 @@ export function About() {
         <ScrollAnimationComponent animateIn="fadeInRight" delay={0.25 * 1000}>
           <div className="image-container purple-circle">
             <img src="/Images/portofolio3.png" alt="Alvaro Serrano" />
-          </div>
-        </ScrollAnimationComponent>
-        <ScrollAnimationComponent animateIn="fadeInUp" delay={0.3 * 1000}>
-          <div className="iron-man-container">
-            <IronMan />
           </div>
         </ScrollAnimationComponent>
       </div>

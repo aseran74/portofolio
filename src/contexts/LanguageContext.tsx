@@ -30,7 +30,7 @@ const translations = {
     
     // About
     'about.title': 'Sobre mí',
-    'about.description1': '¡Hola! Soy Alvaro, un Desarrollador de Software entusiasta especializado en desarrollo web, desarrollo con React Vite, Angular y Vue,(De Next ni lo mentes es imposible hacer nada con este framework) como bases de datos solo funciono con Supabase y con MongoDB utilizando la mayoría de las veces conexiones MCP para conectar todo, actualmente estudio AWS y Python tambien soy experto en elementor y Wordpress ,y sobretodo enamorado del tema Voxel con el que se puede adaptar todo .',
+    'about.description1': '¡Hola! Soy Alvaro, un Desarrollador de Software entusiasta especializado en desarrollo web, desarrollo con React Vite, Angular y Vue, para el diseño utilizo Tailwind casi siempre, (De Next ni lo mentes es imposible hacer nada con este framework) como bases de datos solo funciono con Supabase y con MongoDB utilizando la mayoría de las veces conexiones MCP para conectar todo, actualmente estudio AWS y Python tambien soy experto en elementor y Wordpress, y sobretodo enamorado del tema Voxel con el que se puede adaptar todo. Tengo conocimientos en Node.js, Express, TypeScript, Postsql.',
  
     'about.education': 'Educación:',
     'about.education.degree': 'Certificado en Mongo db  (MCA)',
