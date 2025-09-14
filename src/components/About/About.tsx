@@ -34,16 +34,6 @@ export function About() {
             {t('about.description1')}
           </p>
         </ScrollAnimationComponent>
-        <ScrollAnimationComponent animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
-          <p>
-            {t('about.description2')}
-          </p>
-        </ScrollAnimationComponent>
-        <ScrollAnimationComponent animateIn="fadeInLeft" delay={0.3 * 1000}>
-          <p>
-            {t('about.description3')}
-          </p>
-        </ScrollAnimationComponent>
         <ScrollAnimationComponent animateIn="fadeInLeft" delay={400}>
           <div className="education">
             <h3>{t('about.education')}</h3>
