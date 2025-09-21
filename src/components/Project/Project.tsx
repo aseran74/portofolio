@@ -140,7 +140,7 @@ export function Project() {
             </header>
             <div className="body">
               <div className="project-image">
-                <img src="/Images/Jubilalia.jpg" alt="Trastalia Platform" />
+                <img src="/Images/Trastalia.jpg" alt="Trastalia Platform" />
               </div>
               <h3>{t('projects.trastalia.title')}</h3>
               <p>
@@ -150,9 +150,9 @@ export function Project() {
             <footer>
               <ul className="tech-list">
                 <li>Vue.js 3</li>
-                <li>TypeScript</li>
                 <li>MongoDB</li>
-                <li>Tailwind CSS</li>
+                <li>Railway</li>
+                <li>Vercel</li>
               </ul>
             </footer>
           </div>

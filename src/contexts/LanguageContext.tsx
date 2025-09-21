@@ -51,7 +51,7 @@ const translations = {
     'projects.quincenalia.title': 'Quincenalia - Gestión de Copropiedad de Segundas Residencias',
     'projects.quincenalia.description': 'Plataforma innovadora para gestionar la copropiedad de segundas residencias compartidas. Ofrece calendario de uso compartido, reservas online, seguimiento de gastos comunes, sistema de votaciones, resolución de incidencias y comunicación entre copropietarios. Diseñada para familias, amigos y grupos que comparten viviendas vacacionales.',
     'projects.trastalia.title': 'Trastalia - Plataforma de Compraventa de Segunda Mano',
-    'projects.trastalia.description': 'Plataforma moderna de compraventa de artículos de segunda mano con sistema de puntos y centros logísticos. Incluye sistema de puntos para canjear artículos, panel de administración completo, autenticación segura con roles de usuario, notificaciones toast y diseño responsivo optimizado para móviles y escritorio.',
+    'projects.trastalia.description': 'Plataforma revolucionaria de compraventa de artículos de segunda mano con sistema de puntos único. Desarrollada con Vue.js 3, backend en MongoDB desplegado en Railway y frontend en Vercel. Combina compra, venta e intercambio de forma inteligente y sostenible con más de 1000+ artículos y 500+ usuarios activos.',
     
     // Contact
     'contact.title': 'Contáctame',
@@ -107,7 +107,7 @@ const translations = {
     'projects.quincenalia.title': 'Quincenalia - Second Home Co-ownership Management',
     'projects.quincenalia.description': 'Innovative platform to manage co-ownership of shared second homes. Offers shared use calendar, online bookings, common expense tracking, voting system, incident resolution and communication between co-owners. Designed for families, friends and groups sharing vacation homes.',
     'projects.trastalia.title': 'Trastalia - Second-Hand Marketplace Platform',
-    'projects.trastalia.description': 'Modern second-hand marketplace platform with points system and logistics centers. Features points system for item exchanges, complete admin panel, secure authentication with user roles, toast notifications and responsive design optimized for mobile and desktop.',
+    'projects.trastalia.description': 'Revolutionary second-hand marketplace platform with unique points system. Built with Vue.js 3, MongoDB backend deployed on Railway and frontend on Vercel. Combines buying, selling and exchanging intelligently and sustainably with 1000+ items and 500+ active users.',
     
     // Contact
     'contact.title': 'Contact me',
