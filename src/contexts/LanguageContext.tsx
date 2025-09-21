@@ -50,6 +50,8 @@ const translations = {
     'projects.jubilalia.description': 'Plataforma web diseñada específicamente para personas jubiladas que buscan compartir vivienda, crear amistades y disfrutar de actividades juntos. Incluye red social, sistema de compartir vivienda, actividades comunitarias, geolocalización y autenticación segura con Google OAuth. Conecta a personas senior para mejorar su calidad de vida.',
     'projects.quincenalia.title': 'Quincenalia - Gestión de Copropiedad de Segundas Residencias',
     'projects.quincenalia.description': 'Plataforma innovadora para gestionar la copropiedad de segundas residencias compartidas. Ofrece calendario de uso compartido, reservas online, seguimiento de gastos comunes, sistema de votaciones, resolución de incidencias y comunicación entre copropietarios. Diseñada para familias, amigos y grupos que comparten viviendas vacacionales.',
+    'projects.trastalia.title': 'Trastalia - Plataforma de Compraventa de Segunda Mano',
+    'projects.trastalia.description': 'Plataforma moderna de compraventa de artículos de segunda mano con sistema de puntos y centros logísticos. Incluye sistema de puntos para canjear artículos, panel de administración completo, autenticación segura con roles de usuario, notificaciones toast y diseño responsivo optimizado para móviles y escritorio.',
     
     // Contact
     'contact.title': 'Contáctame',
@@ -104,6 +106,8 @@ const translations = {
     'projects.jubilalia.description': 'Web platform designed specifically for retired people looking to share housing, create friendships and enjoy activities together. Includes social network, housing sharing system, community activities, geolocation and secure authentication with Google OAuth. Connects senior people to improve their quality of life.',
     'projects.quincenalia.title': 'Quincenalia - Second Home Co-ownership Management',
     'projects.quincenalia.description': 'Innovative platform to manage co-ownership of shared second homes. Offers shared use calendar, online bookings, common expense tracking, voting system, incident resolution and communication between co-owners. Designed for families, friends and groups sharing vacation homes.',
+    'projects.trastalia.title': 'Trastalia - Second-Hand Marketplace Platform',
+    'projects.trastalia.description': 'Modern second-hand marketplace platform with points system and logistics centers. Features points system for item exchanges, complete admin panel, secure authentication with user roles, toast notifications and responsive design optimized for mobile and desktop.',
     
     // Contact
     'contact.title': 'Contact me',
