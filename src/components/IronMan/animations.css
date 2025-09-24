@@ -80,7 +80,7 @@
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
   animation-name: slideLeft;
-  -webkit-animation-name: slideLeft; 
+  -webkit-animation-name: slideLeft;
 }
 
 .iron-man-right-arm img { 

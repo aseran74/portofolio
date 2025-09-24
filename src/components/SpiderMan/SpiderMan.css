@@ -1,0 +1,166 @@
+/* Spider-Man Animation - 3 Phase Transition */
+
+.spiderman-wrapper {
+  position: relative;
+  height: 200px;
+  width: 150px;
+  margin: 0 auto;
+  background-color: #212121;
+  border-radius: 10px;
+}
+
+.spiderman-container {
+  position: relative;
+  height: 200px;
+  width: 150px;
+  margin: 0 auto;
+  background-color: #212121;
+  border-radius: 10px;
+}
+
+/* All phases with same container */
+.spiderman-phase-1,
+.spiderman-phase-2,
+.spiderman-phase-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 200px;
+  z-index: 1;
+  background-color: #212121;
+  border-radius: 10px;
+}
+
+.spiderman-phase-1 {
+  animation: phase1 4s infinite;
+}
+
+.spiderman-phase-2 {
+  animation: phase2 4s infinite;
+}
+
+.spiderman-phase-3 {
+  animation: phase3 4s infinite;
+}
+
+.spiderman-phase-1 img,
+.spiderman-phase-2 img,
+.spiderman-phase-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Glow Effect */
+.spiderman-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+  animation: glowPulse 2s infinite ease-in-out;
+}
+
+.glow-effect {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 0, 0, 0.8) 0%, rgba(200, 0, 0, 0.4) 50%, transparent 70%);
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.6), 0 0 40px rgba(255, 0, 0, 0.4), 0 0 60px rgba(255, 0, 0, 0.2);
+}
+
+/* Shadow */
+.spiderman-shadow {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #444;
+  border-radius: 50%;
+  height: 30px;
+  width: 120px;
+  z-index: 0;
+}
+
+/* Smooth transitions */
+@keyframes phase1 {
+  0%, 33% { 
+    opacity: 1; 
+    transform: scale(1);
+  }
+  34%, 100% { 
+    opacity: 0; 
+    transform: scale(1);
+  }
+}
+
+@keyframes phase2 {
+  0%, 33% { 
+    opacity: 0; 
+    transform: scale(1);
+  }
+  34%, 66% { 
+    opacity: 1; 
+    transform: scale(1);
+  }
+  67%, 100% { 
+    opacity: 0; 
+    transform: scale(1);
+  }
+}
+
+@keyframes phase3 {
+  0%, 66% { 
+    opacity: 0; 
+    transform: scale(1);
+  }
+  67%, 100% { 
+    opacity: 1; 
+    transform: scale(1);
+  }
+}
+
+@keyframes glowPulse {
+  0% {
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 0.3;
+  }
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .spiderman-wrapper,
+  .spiderman-container {
+    height: 150px;
+    width: 120px;
+  }
+  
+  .spiderman-phase-1,
+  .spiderman-phase-2,
+  .spiderman-phase-3 {
+    width: 120px;
+    height: 150px;
+  }
+  
+  .spiderman-glow {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .spiderman-shadow {
+    width: 100px;
+    height: 22px;
+    bottom: -15px;
+  }
+}

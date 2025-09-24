@@ -1,6 +1,7 @@
 import Particles from "react-tsparticles"
 import { Container } from "./styles";
 import { Hero } from "../Hero/Hero";
+import { Superheroes } from "../Superheroes/Superheroes";
 import { About } from "../About/About";
 import { Project } from "../Project/Project";
 import { Contact } from "../Contact/Contact";
@@ -263,6 +264,7 @@ export function Main() {
         }}
       />
       <Hero></Hero>
+      <Superheroes></Superheroes>
       <About></About>
       <Project></Project>
       <Contact></Contact>

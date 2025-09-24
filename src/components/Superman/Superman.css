@@ -1,0 +1,418 @@
+/* Superman Animation - Based on Iron Man and Hulk Animation */
+
+/* Main Container - Same dimensions as Iron Man */
+.superman-wrapper {
+  position: relative;
+  height: 205px;
+  width: 161px;
+  margin: 0 auto;
+  background-color: #212121;
+  border-radius: 10px;
+}
+
+.superman-container {
+  position: relative;
+  height: 198px;
+  width: 161px;
+  z-index: 2;
+  margin: 0 auto;
+  background-color: #212121;
+  border-radius: 10px;
+  animation-duration: 5s; 
+  -webkit-animation-duration: 5s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: supermanTransform;
+  -webkit-animation-name: supermanTransform;
+}
+
+/* Phase 1: Clark Kent starting to change */
+.superman-phase-1 {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; 
+  width: 150px;
+  z-index: 1;
+  animation-duration: 5s; 
+  -webkit-animation-duration: 5s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: phase1Animation;
+  -webkit-animation-name: phase1Animation;
+}
+
+.superman-phase-1 img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Phase 2: More Superman-like */
+.superman-phase-2 {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; 
+  width: 150px;
+  z-index: 2;
+  animation-duration: 5s; 
+  -webkit-animation-duration: 5s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: phase2Animation;
+  -webkit-animation-name: phase2Animation;
+}
+
+.superman-phase-2 img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Phase 3: Even more Superman-like */
+.superman-phase-3 {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; 
+  width: 150px;
+  z-index: 3;
+  animation-duration: 5s; 
+  -webkit-animation-duration: 5s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: phase3Animation;
+  -webkit-animation-name: phase3Animation;
+}
+
+.superman-phase-3 img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Phase 4: Full Superman, flies up */
+.superman-phase-4 {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; 
+  width: 150px;
+  z-index: 4;
+  animation-duration: 5s; 
+  -webkit-animation-duration: 5s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: phase4Animation;
+  -webkit-animation-name: phase4Animation;
+}
+
+.superman-phase-4 img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  transform: scale(2.5);
+}
+
+/* Glow Effect */
+.superman-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+  animation-duration: 5s; 
+  -webkit-animation-duration: 5s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: glowPulse;
+  -webkit-animation-name: glowPulse;
+}
+
+.glow-effect {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 123, 255, 0.8) 0%, rgba(0, 100, 200, 0.4) 50%, transparent 70%);
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.6), 0 0 40px rgba(0, 123, 255, 0.4), 0 0 60px rgba(0, 123, 255, 0.2);
+  animation-duration: 2s; 
+  -webkit-animation-duration: 2s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: glowFlicker;
+  -webkit-animation-name: glowFlicker;
+}
+
+/* Shadow - Same as Iron Man shadow */
+.superman-shadow {
+  bottom: -17px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: initial; 
+  background-color: #444;
+  border-radius: 50%;
+  height: 30px;
+  width: 161px;
+  z-index: 1;
+  animation-duration: 5s; 
+  -webkit-animation-duration: 5s;
+  animation-timing-function: linear;  
+  -webkit-animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: shadow;
+  -webkit-animation-name: shadow;
+}
+
+/* Animations - 4 Phase transformation effect */
+@keyframes supermanTransform {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes phase1Animation {
+  0% {
+    opacity: 1;
+    transform: scale(2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(2);
+  }
+}
+
+@keyframes phase2Animation {
+  0% {
+    opacity: 0;
+    transform: scale(2);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(2);
+  }
+  30% {
+    opacity: 1;
+    transform: scale(2);
+  }
+  31% {
+    opacity: 0;
+    transform: scale(2);
+  }
+  70% {
+    opacity: 0;
+    transform: scale(2);
+  }
+  71% {
+    opacity: 1;
+    transform: scale(2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(2);
+  }
+}
+
+@keyframes phase3Animation {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateX(-100%) translateY(40px);
+  }
+  30% {
+    opacity: 0;
+    transform: scale(0.8) translateX(-100%) translateY(40px);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(0.8) translateX(-50%) translateY(40px);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(0.8) translateX(0%) translateY(40px);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(0.8) translateX(0%) translateY(40px);
+  }
+  61% {
+    opacity: 0;
+    transform: scale(0.8) translateX(0%) translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.8) translateX(0%) translateY(40px);
+  }
+}
+
+@keyframes phase4Animation {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(40px);
+  }
+  80% {
+    opacity: 0;
+    transform: scale(0.8) translateY(40px);
+  }
+  81% {
+    opacity: 1;
+    transform: scale(0.8) translateY(40px);
+  }
+  90% {
+    opacity: 1;
+    transform: scale(0.8) translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(0.8) translateY(-300%);
+  }
+}
+
+@keyframes glowPulse {
+  0% {
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 0.3;
+  }
+  25% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 1;
+  }
+  75% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 0.3;
+  }
+}
+
+@keyframes glowFlicker {
+  0%, 100% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  25% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(0.95);
+  }
+  75% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes shadow {
+  0% {
+    background-color: #444;
+    transform: scale(1);
+  }
+  75% {
+    background-color: #444;
+    transform: scale(1);
+  }
+  85% {
+    background-color: #666;
+    transform: scale(0.8);
+  }
+  100% {
+    background-color: #888;
+    transform: scale(0.5);
+  }
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .superman-wrapper {
+    height: 150px;
+    width: 120px;
+  }
+  
+  .superman-container {
+    height: 150px;
+    width: 120px;
+  }
+  
+  .superman-phase-1,
+  .superman-phase-2,
+  .superman-phase-3,
+  .superman-phase-4 {
+    width: 110px;
+  }
+  
+  .superman-glow {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .superman-shadow {
+    height: 22px;
+    width: 120px;
+    bottom: -12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .superman-wrapper {
+    height: 120px;
+    width: 95px;
+  }
+  
+  .superman-container {
+    height: 120px;
+    width: 95px;
+  }
+  
+  .superman-phase-1,
+  .superman-phase-2,
+  .superman-phase-3,
+  .superman-phase-4 {
+    width: 85px;
+  }
+  
+  .superman-glow {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .superman-shadow {
+    height: 18px;
+    width: 95px;
+    bottom: -10px;
+  }
+}

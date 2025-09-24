@@ -1,0 +1,118 @@
+/* Hulk Animation - Simple 4 Phase Transition */
+
+.hulk-wrapper {
+  position: relative;
+  height: 200px;
+  width: 150px;
+  margin: 0 auto;
+  background-color: #212121;
+  border-radius: 10px;
+}
+
+.hulk-container {
+  position: relative;
+  height: 200px;
+  width: 150px;
+  margin: 0 auto;
+  background-color: #212121;
+  border-radius: 10px;
+}
+
+/* All phases with same container */
+.hulk-phase-1,
+.hulk-phase-2,
+.hulk-phase-3,
+.hulk-phase-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 200px;
+  z-index: 1;
+  background-color: #212121;
+  border-radius: 10px;
+}
+
+.hulk-phase-1 {
+  animation: phase1 5s infinite;
+}
+
+.hulk-phase-2 {
+  animation: phase2 5s infinite;
+}
+
+.hulk-phase-3 {
+  animation: phase3 5s infinite;
+}
+
+.hulk-phase-4 {
+  animation: phase4 5s infinite;
+}
+
+.hulk-phase-1 img,
+.hulk-phase-2 img,
+.hulk-phase-3 img,
+.hulk-phase-4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Simple fade transitions */
+@keyframes phase1 {
+  0%, 25% { opacity: 1; }
+  26%, 100% { opacity: 0; }
+}
+
+@keyframes phase2 {
+  0%, 25% { opacity: 0; }
+  26%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+@keyframes phase3 {
+  0%, 50% { opacity: 0; }
+  51%, 75% { opacity: 1; }
+  76%, 100% { opacity: 0; }
+}
+
+@keyframes phase4 {
+  0%, 75% { opacity: 0; }
+  76%, 100% { opacity: 1; }
+}
+
+/* Shadow */
+.hulk-shadow {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #444;
+  border-radius: 50%;
+  height: 30px;
+  width: 120px;
+  z-index: 0;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .hulk-wrapper,
+  .hulk-container {
+    height: 150px;
+    width: 120px;
+  }
+  
+  .hulk-phase-1,
+  .hulk-phase-2,
+  .hulk-phase-3,
+  .hulk-phase-4 {
+    width: 120px;
+    height: 150px;
+  }
+  
+  .hulk-shadow {
+    width: 100px;
+    height: 22px;
+    bottom: -15px;
+  }
+}
