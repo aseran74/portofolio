@@ -28,9 +28,14 @@ export const Container = styled.section`
     
     .superheroes-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 3rem;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
       margin-top: 2rem;
+      
+      @media (max-width: 1200px) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+      }
       
       @media (max-width: 768px) {
         grid-template-columns: 1fr;

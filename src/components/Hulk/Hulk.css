@@ -58,6 +58,10 @@
   object-fit: contain;
 }
 
+.hulk-phase-4 img {
+  transform: scale(1.6);
+}
+
 /* Simple fade transitions */
 @keyframes phase1 {
   0%, 25% { opacity: 1; }

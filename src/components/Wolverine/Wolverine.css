@@ -1,0 +1,147 @@
+/* Wolverine Animation - 2 Phase Transition */
+
+.wolverine-wrapper {
+  position: relative;
+  height: 200px;
+  width: 150px;
+  margin: 0 auto;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.wolverine-container {
+  position: relative;
+  height: 200px;
+  width: 150px;
+  margin: 0 auto;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+/* All phases with same container */
+.wolverine-phase-1,
+.wolverine-phase-2,
+.wolverine-phase-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 200px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.wolverine-phase-1 img,
+.wolverine-phase-2 img,
+.wolverine-phase-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Phase 1 Animation */
+.wolverine-phase-1 {
+  animation: phase1WolverineAnimation 4s infinite;
+}
+
+/* Phase 2 Animation */
+.wolverine-phase-2 {
+  animation: phase2WolverineAnimation 4s infinite;
+}
+
+/* Phase 3 Animation */
+.wolverine-phase-3 {
+  animation: phase3WolverineAnimation 4s infinite;
+}
+
+/* Glow Effect - Disabled */
+.wolverine-glow {
+  display: none;
+}
+
+.glow-effect {
+  display: none;
+}
+
+/* Shadow - Disabled */
+.wolverine-shadow {
+  display: none;
+}
+
+/* Keyframes */
+@keyframes phase1WolverineAnimation {
+  0% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+  }
+  34% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes phase2WolverineAnimation {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+  }
+  34% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 1;
+  }
+  67% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes phase3WolverineAnimation {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  67% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes wolverineGlowPulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+}
+
+@keyframes wolverineShadow {
+  0%, 100% {
+    opacity: 0.3;
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(-50%) scale(1.1);
+  }
+}

@@ -5,7 +5,7 @@
   height: 200px;
   width: 150px;
   margin: 0 auto;
-  background-color: #212121;
+  background-color: transparent;
   border-radius: 10px;
 }
 
@@ -14,21 +14,22 @@
   height: 200px;
   width: 150px;
   margin: 0 auto;
-  background-color: #212121;
+  background-color: transparent;
   border-radius: 10px;
 }
 
 /* All phases with same container */
 .spiderman-phase-1,
 .spiderman-phase-2,
-.spiderman-phase-3 {
+.spiderman-phase-3,
+.spiderman-phase-4 {
   position: absolute;
   top: 0;
   left: 0;
   width: 150px;
   height: 200px;
   z-index: 1;
-  background-color: #212121;
+  background-color: transparent;
   border-radius: 10px;
 }
 
@@ -44,9 +45,14 @@
   animation: phase3 4s infinite;
 }
 
+.spiderman-phase-4 {
+  animation: phase4 4s infinite;
+}
+
 .spiderman-phase-1 img,
 .spiderman-phase-2 img,
-.spiderman-phase-3 img {
+.spiderman-phase-3 img,
+.spiderman-phase-4 img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -87,37 +93,67 @@
 
 /* Smooth transitions */
 @keyframes phase1 {
-  0%, 33% { 
+  0%, 20% { 
     opacity: 1; 
     transform: scale(1);
   }
-  34%, 100% { 
+  21%, 100% { 
     opacity: 0; 
     transform: scale(1);
   }
 }
 
 @keyframes phase2 {
-  0%, 33% { 
+  0%, 20% { 
     opacity: 0; 
     transform: scale(1);
   }
-  34%, 66% { 
+  21%, 40% { 
     opacity: 1; 
     transform: scale(1);
   }
-  67%, 100% { 
+  41%, 100% { 
     opacity: 0; 
     transform: scale(1);
   }
 }
 
 @keyframes phase3 {
-  0%, 66% { 
+  0%, 40% { 
     opacity: 0; 
     transform: scale(1);
   }
-  67%, 100% { 
+  41%, 60% { 
+    opacity: 1; 
+    transform: scale(1);
+  }
+  61%, 100% { 
+    opacity: 0; 
+    transform: scale(1);
+  }
+}
+
+@keyframes phase4 {
+  0%, 60% { 
+    opacity: 0; 
+    transform: scale(1);
+  }
+  61%, 80% { 
+    opacity: 1; 
+    transform: scale(1);
+  }
+  81%, 100% { 
+    opacity: 0; 
+    transform: scale(1);
+  }
+}
+
+@keyframes phase5 {
+  0%, 80% { 
+    opacity: 0; 
+    transform: scale(1);
+  }
+  81%, 100% { 
     opacity: 1; 
     transform: scale(1);
   }
