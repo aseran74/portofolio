@@ -101,7 +101,7 @@ export const Container = styled.section`
       }
       
       .superhero-card {
-        background: #000000;
+        background: #1a1a1a;
         border: 2px solid #333;
         border-radius: 15px;
         padding: 2rem;
