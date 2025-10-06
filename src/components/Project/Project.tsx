@@ -170,7 +170,7 @@ export function Project() {
                 <a href="https://github.com/aseran74/Trastalia-android" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="GitHub" />
                 </a>
-                <a href="/trastalia-android.apk" download rel="noreferrer">
+                <a href="/Images/app-release.apk" download rel="noreferrer">
                   <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                     <polyline points="7 10 12 15 17 10"></polyline>
@@ -181,7 +181,7 @@ export function Project() {
             </header>
             <div className="body">
               <div className="project-image">
-                <img src="/Images/Trastalia.jpg" alt="Trastalia Android App" />
+                <img src="/Images/imagen.png" alt="Trastalia Android App" />
               </div>
               <h3>{t('projects.trastaliaAndroid.title')}</h3>
               <p>
