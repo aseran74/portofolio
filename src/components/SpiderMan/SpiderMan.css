@@ -49,6 +49,81 @@
   animation: phase4 4s infinite;
 }
 
+.spiderman-phase-4.game-active {
+  animation: none;
+  cursor: pointer;
+  pointer-events: auto;
+  width: 50px;
+  height: 50px;
+  z-index: 1000;
+}
+
+.spiderman-phase-4.attacking {
+  animation: attackEffect 0.5s ease-in-out;
+}
+
+@keyframes attackEffect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+    filter: drop-shadow(0 0 20px #ff0000);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.spiderman-phase-4.special-attack {
+  animation: specialAttackEffect 1s ease-in-out;
+}
+
+@keyframes specialAttackEffect {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 20px #ff0000);
+  }
+  25% {
+    transform: scale(2);
+    filter: drop-shadow(0 0 40px #ff0000) drop-shadow(0 0 60px #ff0000);
+  }
+  50% {
+    transform: scale(1.5) rotate(360deg);
+    filter: drop-shadow(0 0 60px #ff0000) drop-shadow(0 0 80px #ff0000);
+  }
+  75% {
+    transform: scale(2);
+    filter: drop-shadow(0 0 40px #ff0000) drop-shadow(0 0 60px #ff0000);
+  }
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 20px #ff0000);
+  }
+}
+
+.attack-hint {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ff0000;
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  white-space: nowrap;
+  animation: hintPulse 2s ease-in-out infinite;
+}
+
+@keyframes hintPulse {
+  0%, 100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
 .spiderman-phase-1 img,
 .spiderman-phase-2 img,
 .spiderman-phase-3 img,

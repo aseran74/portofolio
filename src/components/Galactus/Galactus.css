@@ -1,0 +1,169 @@
+.galactus-wrapper {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.galactus-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #212121;
+  border-radius: 10px;
+}
+
+.galactus-phase-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  animation: galactusGlow 3s ease-in-out infinite;
+}
+
+.galactus-phase-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 0 20px #ff6b35);
+}
+
+@keyframes galactusGlow {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: drop-shadow(0 0 20px #ff6b35);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 30px #ff6b35) drop-shadow(0 0 40px #ff6b35);
+  }
+}
+
+@keyframes hitEffect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 50px #ff0000);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes defeatAnimation {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(0.8);
+    filter: grayscale(100%);
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(0.7);
+    filter: grayscale(100%);
+  }
+}
+
+.galactus-phase-1.game-active {
+  cursor: pointer;
+  animation: galactusGlow 2s ease-in-out infinite;
+}
+
+.galactus-phase-1.game-active:hover {
+  animation: hitEffect 0.3s ease-in-out;
+}
+
+.galactus-phase-1.defeated {
+  animation: defeatAnimation 2s ease-in-out forwards;
+}
+
+.hit-indicator {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ff6b35;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  animation: pulse 1s ease-in-out infinite;
+}
+
+.defeat-message {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ff0000;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.galactus-phase-1.combo-hit {
+  animation: comboShake 0.3s ease-in-out;
+}
+
+@keyframes comboShake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+}
+
+.combo-effect {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #00ff00;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  animation: comboFloat 1s ease-in-out;
+}
+
+@keyframes comboFloat {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-20px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-40px);
+  }
+}

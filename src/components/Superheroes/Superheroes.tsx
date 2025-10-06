@@ -6,36 +6,39 @@ import { Wolverine } from '../Wolverine/Wolverine';
 import { Container } from './styles';
 
 export function Superheroes() {
+
+
   return (
     <Container id="supertecnologia">
       <div className="superheroes-content">
         <h2>Supertecnología</h2>
+        
         <div className="superheroes-grid">
           <div className="superhero-card">
             <h3>⚛️ React</h3>
             <div className="superhero-animation">
-              <SpiderMan />
+              <SpiderMan gameStarted={false} onHit={() => {}} onSpecialAttack={() => {}} specialAttack={false} />
             </div>
           </div>
           
           <div className="superhero-card">
             <h3>🍃 MongoDB</h3>
             <div className="superhero-animation">
-              <Hulk />
+              <Hulk gameStarted={false} onHit={() => {}} onSpecialAttack={() => {}} specialAttack={false} />
             </div>
           </div>
           
           <div className="superhero-card">
             <h3>🅰️ Angular</h3>
             <div className="superhero-animation">
-              <Superman />
+              <Superman gameStarted={false} onHit={() => {}} onSpecialAttack={() => {}} specialAttack={false} />
             </div>
           </div>
           
           <div className="superhero-card">
             <h3>☁️ AWS</h3>
             <div className="superhero-animation">
-              <Wolverine />
+              <Wolverine gameStarted={false} onHit={() => {}} onSpecialAttack={() => {}} specialAttack={false} />
             </div>
           </div>
         </div>
@@ -43,3 +46,5 @@ export function Superheroes() {
     </Container>
   );
 }
+
+

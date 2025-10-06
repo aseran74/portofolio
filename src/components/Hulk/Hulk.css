@@ -49,6 +49,81 @@
   animation: phase4 5s infinite;
 }
 
+.hulk-phase-4.game-active {
+  animation: none;
+  cursor: pointer;
+  pointer-events: auto;
+  width: 50px;
+  height: 50px;
+  z-index: 1000;
+}
+
+.hulk-phase-4.attacking {
+  animation: attackEffect 0.5s ease-in-out;
+}
+
+@keyframes attackEffect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+    filter: drop-shadow(0 0 20px #00ff00);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.hulk-phase-4.special-attack {
+  animation: hulkSpecialAttack 1s ease-in-out;
+}
+
+@keyframes hulkSpecialAttack {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 20px #00ff00);
+  }
+  25% {
+    transform: scale(2.5);
+    filter: drop-shadow(0 0 40px #00ff00) drop-shadow(0 0 60px #00ff00);
+  }
+  50% {
+    transform: scale(2) translateY(-20px);
+    filter: drop-shadow(0 0 60px #00ff00) drop-shadow(0 0 80px #00ff00);
+  }
+  75% {
+    transform: scale(2.5);
+    filter: drop-shadow(0 0 40px #00ff00) drop-shadow(0 0 60px #00ff00);
+  }
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 20px #00ff00);
+  }
+}
+
+.attack-hint {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #00ff00;
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  white-space: nowrap;
+  animation: hintPulse 2s ease-in-out infinite;
+}
+
+@keyframes hintPulse {
+  0%, 100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
 .hulk-phase-1 img,
 .hulk-phase-2 img,
 .hulk-phase-3 img,

@@ -52,6 +52,8 @@ const translations = {
     'projects.quincenalia.description': 'Plataforma innovadora para gestionar la copropiedad de segundas residencias compartidas. Ofrece calendario de uso compartido, reservas online, seguimiento de gastos comunes, sistema de votaciones, resolución de incidencias y comunicación entre copropietarios. Diseñada para familias, amigos y grupos que comparten viviendas vacacionales.',
     'projects.trastalia.title': 'Trastalia - Plataforma de Compraventa de Segunda Mano',
     'projects.trastalia.description': 'Plataforma revolucionaria de compraventa de artículos de segunda mano con sistema de puntos único. Desarrollada con Vue.js 3, backend en MongoDB desplegado en Railway y frontend en Vercel. Combina compra, venta e intercambio de forma inteligente y sostenible con más de 1000+ artículos y 500+ usuarios activos.',
+    'projects.trastaliaAndroid.title': 'Trastalia Android - App Móvil de Segunda Mano',
+    'projects.trastaliaAndroid.description': 'Aplicación Android nativa de Trastalia desarrollada con Capacitor y Vue.js 3. Marketplace móvil funcional con sistema dual de pagos (dinero real y puntos), gestión completa de inventario, búsqueda avanzada y experiencia optimizada para dispositivos móviles. APK descargable y completamente funcional.',
     
     // Contact
     'contact.title': 'Contáctame',
@@ -108,6 +110,8 @@ const translations = {
     'projects.quincenalia.description': 'Innovative platform to manage co-ownership of shared second homes. Offers shared use calendar, online bookings, common expense tracking, voting system, incident resolution and communication between co-owners. Designed for families, friends and groups sharing vacation homes.',
     'projects.trastalia.title': 'Trastalia - Second-Hand Marketplace Platform',
     'projects.trastalia.description': 'Revolutionary second-hand marketplace platform with unique points system. Built with Vue.js 3, MongoDB backend deployed on Railway and frontend on Vercel. Combines buying, selling and exchanging intelligently and sustainably with 1000+ items and 500+ active users.',
+    'projects.trastaliaAndroid.title': 'Trastalia Android - Mobile Second-Hand App',
+    'projects.trastaliaAndroid.description': 'Native Android application of Trastalia built with Capacitor and Vue.js 3. Fully functional mobile marketplace with dual payment system (real money and points), complete inventory management, advanced search and optimized experience for mobile devices. Downloadable and fully functional APK.',
     
     // Contact
     'contact.title': 'Contact me',
