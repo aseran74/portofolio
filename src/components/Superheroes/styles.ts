@@ -218,7 +218,7 @@ export const Container = styled.section`
     }
     
     .superhero-card {
-      background: #212121;
+      background: #1a1a1a;
       backdrop-filter: blur(10px);
       border-radius: 20px;
       padding: 2rem;
@@ -274,7 +274,7 @@ export const Container = styled.section`
     .villain-section {
       margin-top: 4rem;
       padding: 2rem;
-      background: #1a1a1a;
+      background: #0d0d0d;
       border-radius: 20px;
       border: 2px solid #ff6b35;
       box-shadow: 0 8px 32px rgba(255, 107, 53, 0.2);
@@ -297,7 +297,7 @@ export const Container = styled.section`
         justify-content: center;
         align-items: center;
         min-height: 250px;
-        background: #212121;
+        background: #1a1a1a;
         border-radius: 15px;
         border: 2px solid #333;
         overflow: hidden;
