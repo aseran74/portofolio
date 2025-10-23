@@ -44,6 +44,8 @@ const translations = {
     
     // Projects
     'projects.title': 'Mis Proyectos',
+    'projects.compartalia.title': 'Compartalia - Panel Admin Vue + Tailwind',
+    'projects.compartalia.description': 'Dashboard de administración basado en Vue 3, Vite y Tailwind CSS 4, inspirado en TailAdmin. Incluye componentes reutilizables, ruteo con Vue Router y gestión de estado con Pinia; ideal como base para backoffice y paneles de control.',
     'projects.holydeo.title': 'HOLYDEO - Plataforma de Alquileres Turísticos de Media Estancia',
     'projects.holydeo.description': 'Primera plataforma web moderna especializada en alquileres turísticos de media estancia, enfocada en resolver la estacionalidad del turismo vacacional. Maximiza la rentabilidad de propiedades durante la temporada baja (septiembre-junio) con gestión inmobiliaria completa, experiencias turísticas, sistema de reservas avanzado y autenticación Firebase.',
     'projects.jubilalia.title': 'Jubilalia - Plataforma para Jubilados',
@@ -102,6 +104,8 @@ const translations = {
     
     // Projects
     'projects.title': 'My Projects',
+    'projects.compartalia.title': 'Compartalia - Admin Panel Vue + Tailwind',
+    'projects.compartalia.description': 'Admin dashboard scaffold built with Vue 3, Vite and Tailwind CSS 4, inspired by TailAdmin. Ships reusable components, Vue Router navigation and Pinia state management; a solid base for backoffice and control panels.',
     'projects.holydeo.title': 'HOLYDEO - Medium-Term Tourist Rental Platform',
     'projects.holydeo.description': 'First modern web platform specialized in medium-term tourist rentals, focused on solving vacation rental seasonality. Maximizes property profitability during low season (September-June) with complete real estate management, tourist experiences, advanced booking system and Firebase authentication.',
     'projects.jubilalia.title': 'Jubilalia - Platform for Retirees',
