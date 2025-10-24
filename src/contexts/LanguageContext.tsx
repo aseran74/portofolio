@@ -55,7 +55,7 @@ const translations = {
     'projects.trastaliaAndroid.title': 'Trastalia Android - App Móvil de Segunda Mano',
     'projects.trastaliaAndroid.description': 'Aplicación Android nativa de Trastalia desarrollada con Capacitor y Vue.js 3. Marketplace móvil funcional con sistema dual de pagos (dinero real y puntos), gestión completa de inventario, búsqueda avanzada y experiencia optimizada para dispositivos móviles. APK descargable y completamente funcional.',
     'projects.compartalia.title': 'Compartalia - Plataforma de Carpooling Inteligente',
-    'projects.compartalia.description': 'Plataforma web innovadora de carpooling (compartir viajes) desarrollada con Vue.js 3 y Tailwind CSS. Conecta a conductores y pasajeros para optimizar desplazamientos, reducir costos de transporte y promover la movilidad sostenible. Incluye geolocalización, sistema de reservas, chat en tiempo real y gestión de rutas inteligentes.',
+    'projects.compartalia.description': 'Plataforma web innovadora de carpooling para los viajes diarios al trabajo (compartir viajes para el extraradio de Madrid ) desarrollada con Vue.js 3 y Tailwind CSS. Conecta a conductores y pasajeros para optimizar desplazamientos, reducir costos de transporte y promover la movilidad sostenible. Incluye geolocalización, sistema de reservas, chat en tiempo real y gestión de rutas inteligentes.',
     
     // Contact
     'contact.title': 'Contáctame',
