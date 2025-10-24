@@ -54,6 +54,8 @@ const translations = {
     'projects.trastalia.description': 'Plataforma revolucionaria de compraventa de artículos de segunda mano con sistema de puntos único. Desarrollada con Vue.js 3, backend en MongoDB desplegado en Railway y frontend en Vercel. Combina compra, venta e intercambio de forma inteligente y sostenible con más de 1000+ artículos y 500+ usuarios activos.',
     'projects.trastaliaAndroid.title': 'Trastalia Android - App Móvil de Segunda Mano',
     'projects.trastaliaAndroid.description': 'Aplicación Android nativa de Trastalia desarrollada con Capacitor y Vue.js 3. Marketplace móvil funcional con sistema dual de pagos (dinero real y puntos), gestión completa de inventario, búsqueda avanzada y experiencia optimizada para dispositivos móviles. APK descargable y completamente funcional.',
+    'projects.compartalia.title': 'Compartalia - Plataforma de Carpooling Inteligente',
+    'projects.compartalia.description': 'Plataforma web innovadora de carpooling (compartir viajes) desarrollada con Vue.js 3 y Tailwind CSS. Conecta a conductores y pasajeros para optimizar desplazamientos, reducir costos de transporte y promover la movilidad sostenible. Incluye geolocalización, sistema de reservas, chat en tiempo real y gestión de rutas inteligentes.',
     
     // Contact
     'contact.title': 'Contáctame',
@@ -112,6 +114,8 @@ const translations = {
     'projects.trastalia.description': 'Revolutionary second-hand marketplace platform with unique points system. Built with Vue.js 3, MongoDB backend deployed on Railway and frontend on Vercel. Combines buying, selling and exchanging intelligently and sustainably with 1000+ items and 500+ active users.',
     'projects.trastaliaAndroid.title': 'Trastalia Android - Mobile Second-Hand App',
     'projects.trastaliaAndroid.description': 'Native Android application of Trastalia built with Capacitor and Vue.js 3. Fully functional mobile marketplace with dual payment system (real money and points), complete inventory management, advanced search and optimized experience for mobile devices. Downloadable and fully functional APK.',
+    'projects.compartalia.title': 'Compartalia - Smart Carpooling Platform',
+    'projects.compartalia.description': 'Innovative carpooling (ride-sharing) web platform built with Vue.js 3 and Tailwind CSS. Connects drivers and passengers to optimize commutes, reduce transportation costs and promote sustainable mobility. Includes geolocation, booking system, real-time chat and intelligent route management.',
     
     // Contact
     'contact.title': 'Contact me',
