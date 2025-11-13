@@ -56,6 +56,8 @@ const translations = {
     'projects.trastaliaAndroid.description': 'Aplicación Android nativa de Trastalia desarrollada con Capacitor y Vue.js 3. Marketplace móvil funcional con sistema dual de pagos (dinero real y puntos), gestión completa de inventario, búsqueda avanzada y experiencia optimizada para dispositivos móviles. APK descargable y completamente funcional.',
     'projects.compartalia.title': 'Compartalia - Plataforma de Carpooling Inteligente',
     'projects.compartalia.description': 'Plataforma web innovadora de carpooling para los viajes diarios al trabajo (compartir viajes para el extraradio de Madrid ) desarrollada con Vue.js 3 y Tailwind CSS. Conecta a conductores y pasajeros para optimizar desplazamientos, reducir costos de transporte y promover la movilidad sostenible. Incluye geolocalización, sistema de reservas, chat en tiempo real y gestión de rutas inteligentes.',
+    'projects.votalia.title': 'Votalia - Simulador de Blockchain PPoV',
+    'projects.votalia.description': 'Suite web desarrollada con Angular 17 y Tailwind CSS que simula un protocolo blockchain híbrido Proof+Vote (PPoV). Incluye panel de métricas, monitorización de transacciones, simulaciones de contratos inteligentes, votaciones con verificación pública y módulos sectoriales (energía solar, notaría y proyección TPS global) integrados con Supabase.',
     
     // Contact
     'contact.title': 'Contáctame',
@@ -116,6 +118,8 @@ const translations = {
     'projects.trastaliaAndroid.description': 'Native Android application of Trastalia built with Capacitor and Vue.js 3. Fully functional mobile marketplace with dual payment system (real money and points), complete inventory management, advanced search and optimized experience for mobile devices. Downloadable and fully functional APK.',
     'projects.compartalia.title': 'Compartalia - Smart Carpooling Platform',
     'projects.compartalia.description': 'Innovative carpooling (ride-sharing) web platform built with Vue.js 3 and Tailwind CSS. Connects drivers and passengers to optimize commutes, reduce transportation costs and promote sustainable mobility. Includes geolocation, booking system, real-time chat and intelligent route management.',
+    'projects.votalia.title': 'Votalia - PPoV Blockchain Simulation Suite',
+    'projects.votalia.description': 'Web suite built with Angular 17 and Tailwind CSS that simulates a hybrid Proof+Vote (PPoV) blockchain protocol. Delivers dashboards, transaction monitoring, smart contracts laboratory, verifiable voting flows, sector simulations (solar energy, notary) and global TPS projections backed by Supabase services.',
     
     // Contact
     'contact.title': 'Contact me',
