@@ -54,8 +54,10 @@ const translations = {
     'projects.trastalia.description': 'Plataforma revolucionaria de compraventa de artículos de segunda mano con sistema de puntos único. Desarrollada con Vue.js 3, backend en MongoDB desplegado en Railway y frontend en Vercel. Combina compra, venta e intercambio de forma inteligente y sostenible con más de 1000+ artículos y 500+ usuarios activos.',
     'projects.trastaliaAndroid.title': 'Trastalia Android - App Móvil de Segunda Mano',
     'projects.trastaliaAndroid.description': 'Aplicación Android nativa de Trastalia desarrollada con Capacitor y Vue.js 3. Marketplace móvil funcional con sistema dual de pagos (dinero real y puntos), gestión completa de inventario, búsqueda avanzada y experiencia optimizada para dispositivos móviles. APK descargable y completamente funcional.',
-    'projects.compartalia.title': 'Compartalia - Plataforma de Carpooling Inteligente',
+    'projects.compartalia.title': 'rutify - Plataforma de Carpooling Inteligente',
     'projects.compartalia.description': 'Plataforma web innovadora de carpooling para los viajes diarios al trabajo (compartir viajes para el extraradio de Madrid ) desarrollada con Vue.js 3 y Tailwind CSS. Conecta a conductores y pasajeros para optimizar desplazamientos, reducir costos de transporte y promover la movilidad sostenible. Incluye geolocalización, sistema de reservas, chat en tiempo real y gestión de rutas inteligentes.',
+    'projects.loft2live.title': 'Loft2Live - Dashboard Admin (Vue + Tailwind)',
+    'projects.loft2live.description': 'Una nueva manera de comprar y vender lofts. Aprovecha y maximiza todas las ventajas fiscales.',
     'projects.votalia.title': 'Votalia - Simulador de Blockchain PPoV',
     'projects.votalia.description': 'Suite web desarrollada con Angular 17 y Tailwind CSS que simula un protocolo blockchain híbrido Proof+Vote (PPoV). Incluye panel de métricas, monitorización de transacciones, simulaciones de contratos inteligentes, votaciones con verificación pública y módulos sectoriales (energía solar, notaría y proyección TPS global) integrados con Supabase.',
     
@@ -116,8 +118,10 @@ const translations = {
     'projects.trastalia.description': 'Revolutionary second-hand marketplace platform with unique points system. Built with Vue.js 3, MongoDB backend deployed on Railway and frontend on Vercel. Combines buying, selling and exchanging intelligently and sustainably with 1000+ items and 500+ active users.',
     'projects.trastaliaAndroid.title': 'Trastalia Android - Mobile Second-Hand App',
     'projects.trastaliaAndroid.description': 'Native Android application of Trastalia built with Capacitor and Vue.js 3. Fully functional mobile marketplace with dual payment system (real money and points), complete inventory management, advanced search and optimized experience for mobile devices. Downloadable and fully functional APK.',
-    'projects.compartalia.title': 'Compartalia - Smart Carpooling Platform',
+    'projects.compartalia.title': 'rutify - Smart Carpooling Platform',
     'projects.compartalia.description': 'Innovative carpooling (ride-sharing) web platform built with Vue.js 3 and Tailwind CSS. Connects drivers and passengers to optimize commutes, reduce transportation costs and promote sustainable mobility. Includes geolocation, booking system, real-time chat and intelligent route management.',
+    'projects.loft2live.title': 'Loft2Live - Admin Dashboard (Vue + Tailwind)',
+    'projects.loft2live.description': 'A new way to buy and sell lofts. Leverage and maximize all tax advantages.',
     'projects.votalia.title': 'Votalia - PPoV Blockchain Simulation Suite',
     'projects.votalia.description': 'Web suite built with Angular 17 and Tailwind CSS that simulates a hybrid Proof+Vote (PPoV) blockchain protocol. Delivers dashboards, transaction monitoring, smart contracts laboratory, verifiable voting flows, sector simulations (solar energy, notary) and global TPS projections backed by Supabase services.',
     
