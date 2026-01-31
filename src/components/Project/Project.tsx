@@ -244,7 +244,7 @@ export function Project() {
                 <a href="https://github.com/aseran74/rutify" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="GitHub" />
                 </a>
-                <a href="https://rutify.netlify.app" target="_blank" rel="noreferrer">
+                <a href="https://rutify.app" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
