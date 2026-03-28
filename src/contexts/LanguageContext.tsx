@@ -58,6 +58,8 @@ const translations = {
     'projects.compartalia.description': 'Plataforma web innovadora de carpooling para los viajes diarios al trabajo (compartir viajes para el extraradio de Madrid ) desarrollada con Vue.js 3 y Tailwind CSS. Conecta a conductores y pasajeros para optimizar desplazamientos, reducir costos de transporte y promover la movilidad sostenible. Incluye geolocalización, sistema de reservas, chat en tiempo real y gestión de rutas inteligentes.',
     'projects.loft2live.title': 'Loft2Live - Dashboard Admin (Vue + Tailwind)',
     'projects.loft2live.description': 'Una nueva manera de comprar y vender lofts. Aprovecha y maximiza todas las ventajas fiscales.',
+    'projects.calistry.title': 'Calistry - Calistenia para alumnos y profesores',
+    'projects.calistry.description': 'App Flutter (web y móvil) de calistenia: los alumnos eligen ejercicios, arman rutinas, eligen profesores y siguen clases con profesores en tiempo real; pueden marcar rutinas como hechas y llevar el progreso. Backend con Insforge, estado con Riverpod y despliegue web en Vercel.',
     'projects.votalia.title': 'Votalia - Simulador de Blockchain PPoV',
     'projects.votalia.description': 'Suite web desarrollada con Angular 17 y Tailwind CSS que simula un protocolo blockchain híbrido Proof+Vote (PPoV). Incluye panel de métricas, monitorización de transacciones, simulaciones de contratos inteligentes, votaciones con verificación pública y módulos sectoriales (energía solar, notaría y proyección TPS global) integrados con Supabase.',
     
@@ -122,6 +124,8 @@ const translations = {
     'projects.compartalia.description': 'Innovative carpooling (ride-sharing) web platform built with Vue.js 3 and Tailwind CSS. Connects drivers and passengers to optimize commutes, reduce transportation costs and promote sustainable mobility. Includes geolocation, booking system, real-time chat and intelligent route management.',
     'projects.loft2live.title': 'Loft2Live - Admin Dashboard (Vue + Tailwind)',
     'projects.loft2live.description': 'A new way to buy and sell lofts. Leverage and maximize all tax advantages.',
+    'projects.calistry.title': 'Calistry - Calisthenics for students and coaches',
+    'projects.calistry.description': 'Flutter app (web and mobile) for calisthenics: students pick exercises, build routines, choose coaches and join live coach-led classes; mark routines as completed and track progress. Insforge backend, Riverpod state management and web deployed on Vercel.',
     'projects.votalia.title': 'Votalia - PPoV Blockchain Simulation Suite',
     'projects.votalia.description': 'Web suite built with Angular 17 and Tailwind CSS that simulates a hybrid Proof+Vote (PPoV) blockchain protocol. Delivers dashboards, transaction monitoring, smart contracts laboratory, verifiable voting flows, sector simulations (solar energy, notary) and global TPS projections backed by Supabase services.',
     
