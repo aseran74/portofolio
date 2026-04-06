@@ -287,7 +287,7 @@ export function Project() {
             </header>
             <div className="body">
               <div className="project-image">
-                <img src="/Images/Loft2live.jpg" alt="Loft2Live" />
+                <img src="/Images/Loft2Live.png" alt="Loft2Live" />
               </div>
               <h3>{t('projects.loft2live.title')}</h3>
               <p>
