@@ -247,6 +247,16 @@ export function Project() {
                 <a href="https://rutify.netlify.app" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.compartalia.app&pcampaignid=web_share"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Rutify en Google Play"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="#23ce6b" aria-hidden>
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </a>
               </div>
             </header>
             <div className="body">
@@ -287,7 +297,7 @@ export function Project() {
             </header>
             <div className="body">
               <div className="project-image">
-                <img src="/Images/Loft2Live.png" alt="Loft2Live" />
+                <img src="/Images/Loft2live.jpg" alt="Loft2Live" />
               </div>
               <h3>{t('projects.loft2live.title')}</h3>
               <p>
