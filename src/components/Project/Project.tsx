@@ -253,9 +253,7 @@ export function Project() {
                   rel="noreferrer"
                   aria-label="Rutify en Google Play"
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="#23ce6b" aria-hidden>
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
+                  <img src="/Logo.png" alt="Get it on Google Play" style={{ width: '10rem', objectFit: 'contain' }} />
                 </a>
               </div>
             </header>
@@ -328,6 +326,14 @@ export function Project() {
                 </a>
                 <a href="https://calistry.vercel.app" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
+                </a>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.alvaro.calisteniaapp"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Calistry en Google Play"
+                >
+                  <img src="/Logo.png" alt="Get it on Google Play" style={{ width: '10rem', objectFit: 'contain' }} />
                 </a>
               </div>
             </header>
