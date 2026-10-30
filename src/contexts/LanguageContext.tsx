@@ -24,13 +24,13 @@ const translations = {
     'hero.hello': 'Hola',
     'hero.name': 'Alvaro Serrano',
     'hero.title': 'Desarrollador Full Stack',
-    'hero.description': 'Productos con SDD, Angular, Nuxt, React y Flutter; microservicios Spring Boot, IA vía API, AWS y Microsoft Cloud. Diseño con skills personalizadas.',
+    'hero.description': 'Fullstack: del contrato a producción. Spec-Driven Development, Spring Boot, Vue/Nuxt/Angular/React/Flutter, IA vía API, AWS y Microsoft Cloud.',
     'hero.cta': 'Ver mis trabajos',
     'hero.contact': 'Contáctame',
     
     // About
     'about.title': 'Sobre mí',
-    'about.description1': 'Soy Alvaro, desarrollador full stack en Madrid. Trabajo con Spec-Driven Development (SDD / Specdev): la spec es la fuente de verdad y el código se construye a partir de ella. Creo apps web y móviles con Angular, Nuxt, React, Vue y Flutter, UI con Tailwind, backends con Node.js, Express y TypeScript, y microservicios con Spring Boot. Aplico prácticas de diseño únicas con skills personalizadas para que cada producto tenga identidad propia. Integro IA mediante APIs, backends en Supabase e InsForge, MongoDB y PostgreSQL (incluyendo MCP), y despliego en AWS y Microsoft Cloud. También WordPress, Elementor y Voxel. Busco un equipo donde aportar producto real, código limpio y velocidad de entrega.',
+    'about.description1': 'Fullstack: del contrato a producción. Desarrollo productos con Spec-Driven Development, donde la especificación manda y el código se deriva de ella.\n\nFrontend y móvil: Vue, Nuxt, Angular, React y Flutter, con apps publicadas en Google Play (Android).\nBackend: microservicios con Spring Boot.\nIA: integración de modelos vía API en producto real.\nCloud: AWS y Microsoft Cloud.\nDiseño: flujos de trabajo con skills personalizadas para IA.',
  
     'about.education': 'Educación:',
     'about.education.degree': 'Certificado en Mongo db  (MCA)',
@@ -99,13 +99,13 @@ const translations = {
     'hero.hello': 'Hello',
     'hero.name': 'Alvaro Serrano',
     'hero.title': 'Full Stack Developer',
-    'hero.description': 'Products with SDD, Angular, Nuxt, React and Flutter; Spring Boot microservices, AI via APIs, AWS and Microsoft Cloud. Design with custom skills.',
+    'hero.description': 'Full stack: from contract to production. Spec-Driven Development, Spring Boot, Vue/Nuxt/Angular/React/Flutter, AI via APIs, AWS and Microsoft Cloud.',
     'hero.cta': 'See my work',
     'hero.contact': 'Contact me',
     
     // About
     'about.title': 'About me',
-    'about.description1': 'I\'m Alvaro, a full stack developer based in Madrid. I work with Spec-Driven Development (SDD / Specdev): the spec is the source of truth and code is built from it. I ship web and mobile apps with Angular, Nuxt, React, Vue and Flutter, UI with Tailwind, backends with Node.js, Express and TypeScript, plus Spring Boot microservices. I apply unique design practices with custom skills so each product has its own identity. I integrate AI through APIs, backends on Supabase and InsForge, MongoDB and PostgreSQL (including MCP), and deploy on AWS and Microsoft Cloud. Also WordPress, Elementor and Voxel. Looking for a team where I can deliver real product, clean code and fast iteration.',
+    'about.description1': 'Full stack: from contract to production. I build products with Spec-Driven Development, where the specification leads and code is derived from it.\n\nFrontend & mobile: Vue, Nuxt, Angular, React and Flutter, with apps published on Google Play (Android).\nBackend: Spring Boot microservices.\nAI: model integration via APIs in real products.\nCloud: AWS and Microsoft Cloud.\nDesign: workflows with custom AI skills.',
     'about.education': 'Education:',
     'about.education.degree': 'Certificado Mongo DB bootcamp ',
     'about.education.school': 'Fullstack Developer Ironhack (MCA) ',

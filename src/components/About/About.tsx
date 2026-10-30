@@ -29,7 +29,7 @@ export function About() {
           <h2>{t('about.title')}</h2>
         </ScrollAnimationComponent>
         <ScrollAnimationComponent animateIn="fadeInLeft" delay={0.1 * 1000}>
-          <p>
+          <p style={{ whiteSpace: 'pre-line' }}>
             {t('about.description1')}
           </p>
         </ScrollAnimationComponent>
