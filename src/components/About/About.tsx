@@ -1,5 +1,4 @@
 import { Container } from "./styles";
-// import Portofolio from "../../assets/Portofolio.png";
 import python from "../../assets/python.svg"
 import java from "../../assets/java.svg"
 import wordpress from "../../assets/wordpress.svg";
@@ -7,7 +6,6 @@ import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
-// import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
@@ -16,12 +14,17 @@ import ScrollAnimation from "react-animate-on-scroll";
 import { useLanguage } from '../../contexts/LanguageContext';
 import React from 'react';
 
-// Type assertion to fix ScrollAnimation component issue
 const ScrollAnimationComponent = ScrollAnimation as unknown as React.ComponentType<any>;
 
+const shippingStack = ['Vue', 'Nuxt', 'Flutter', 'Supabase', 'InsForge', 'IA vía API', 'Google Play'];
+const growingStack = ['Spring Boot', 'Angular', 'React', 'AWS', 'Microsoft Cloud'];
+
 export function About() {
-  const { t } = useLanguage()
-  
+  const { t, language } = useLanguage()
+  const shipping = language === 'en'
+    ? ['Vue', 'Nuxt', 'Flutter', 'Supabase', 'InsForge', 'AI via API', 'Google Play']
+    : shippingStack
+
   return (
     <Container id="about">
       <div className="about-text">
@@ -29,11 +32,58 @@ export function About() {
           <h2>{t('about.title')}</h2>
         </ScrollAnimationComponent>
         <ScrollAnimationComponent animateIn="fadeInLeft" delay={0.1 * 1000}>
-          <p style={{ whiteSpace: 'pre-line' }}>
-            {t('about.description1')}
-          </p>
+          <p className="lead">{t('about.description1')}</p>
         </ScrollAnimationComponent>
+
+        <ScrollAnimationComponent animateIn="fadeInLeft" delay={0.15 * 1000}>
+          <div className="sdd-block">
+            <h3>{t('about.sdd.title')}</h3>
+            <p>{t('about.sdd.intro')}</p>
+            <div className="sdd-steps">
+              <div className="sdd-step">
+                <h4>{t('about.sdd.step1.title')}</h4>
+                <p>{t('about.sdd.step1.text')}</p>
+              </div>
+              <div className="sdd-step">
+                <h4>{t('about.sdd.step2.title')}</h4>
+                <p>{t('about.sdd.step2.text')}</p>
+              </div>
+              <div className="sdd-step">
+                <h4>{t('about.sdd.step3.title')}</h4>
+                <p>{t('about.sdd.step3.text')}</p>
+              </div>
+            </div>
+          </div>
+        </ScrollAnimationComponent>
+
         <ScrollAnimationComponent animateIn="fadeInLeft" delay={0.2 * 1000}>
+          <div className="stack-block">
+            <h3>{t('about.stack.title')}</h3>
+            <p>{t('about.stack.subtitle')}</p>
+            <div className="stack-columns">
+              <div className="stack-column">
+                <h4>{t('about.stack.shipping.title')}</h4>
+                <p className="stack-label">{t('about.stack.shipping.subtitle')}</p>
+                <ul className="stack-tags">
+                  {shipping.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+              <div className="stack-column">
+                <h4>{t('about.stack.growing.title')}</h4>
+                <p className="stack-label">{t('about.stack.growing.subtitle')}</p>
+                <ul className="stack-tags growing">
+                  {growingStack.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </ScrollAnimationComponent>
+
+        <ScrollAnimationComponent animateIn="fadeInLeft" delay={0.25 * 1000}>
           <div className="education">
             <h3>{t('about.education')}</h3>
             <h4>{t('about.education.degree')}</h4>
@@ -41,7 +91,7 @@ export function About() {
             <p>{t('about.education.gpa')}</p>
           </div>
         </ScrollAnimationComponent>
-        <ScrollAnimationComponent animateIn="fadeInLeft" delay={0.25 * 1000}>
+        <ScrollAnimationComponent animateIn="fadeInLeft" delay={0.3 * 1000}>
           <div className="experience">
             <h3>{t('about.experience')}</h3>
             <h4>{t('about.experience.title')}</h4>
