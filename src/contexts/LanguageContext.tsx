@@ -24,13 +24,13 @@ const translations = {
     'hero.hello': 'Hola',
     'hero.name': 'Alvaro Serrano',
     'hero.title': 'Desarrollador Full Stack',
-    'hero.description': 'Construyo productos web con Vue, Nuxt y Tailwind, IA vía API, backends en Supabase e InsForge, y despliegue en AWS y Microsoft Cloud.',
+    'hero.description': 'Construyo productos con Spec-Driven Development (SDD), microservicios Spring Boot, Vue/Nuxt, IA vía API y backends en Supabase e InsForge.',
     'hero.cta': 'Ver mis trabajos',
     'hero.contact': 'Contáctame',
     
     // About
     'about.title': 'Sobre mí',
-    'about.description1': 'Soy Alvaro, desarrollador full stack en Madrid. Creo aplicaciones web de principio a fin con Vue, Nuxt, React y Angular, UI con Tailwind, y backends con Node.js, Express y TypeScript. Integro soluciones de IA mediante APIs, y trabajo con Supabase e InsForge como backend. También uso MongoDB y PostgreSQL (incluyendo flujos MCP). Tengo experiencia sólida en WordPress, Elementor y Voxel, y despliego en AWS y Microsoft Cloud. Busco un equipo donde aportar producto real, código limpio y velocidad de entrega.',
+    'about.description1': 'Soy Alvaro, desarrollador full stack en Madrid. Trabajo con Spec-Driven Development (SDD / Specdev): la spec es la fuente de verdad y el código se construye a partir de ella. Creo aplicaciones web con Vue, Nuxt, React y Angular, UI con Tailwind, backends con Node.js, Express y TypeScript, y también microservicios con Spring Boot. Integro soluciones de IA mediante APIs, y trabajo con Supabase e InsForge como backend. También uso MongoDB y PostgreSQL (incluyendo flujos MCP). Experiencia sólida en WordPress, Elementor y Voxel, y despliegue en AWS y Microsoft Cloud. Busco un equipo donde aportar producto real, código limpio y velocidad de entrega.',
  
     'about.education': 'Educación:',
     'about.education.degree': 'Certificado en Mongo db  (MCA)',
@@ -99,13 +99,13 @@ const translations = {
     'hero.hello': 'Hello',
     'hero.name': 'Alvaro Serrano',
     'hero.title': 'Full Stack Developer',
-    'hero.description': 'I build web products with Vue, Nuxt and Tailwind, AI via APIs, backends on Supabase and InsForge, and deploy on AWS and Microsoft Cloud.',
+    'hero.description': 'I build products with Spec-Driven Development (SDD), Spring Boot microservices, Vue/Nuxt, AI via APIs, and backends on Supabase and InsForge.',
     'hero.cta': 'See my work',
     'hero.contact': 'Contact me',
     
     // About
     'about.title': 'About me',
-    'about.description1': 'I\'m Alvaro, a full stack developer based in Madrid. I ship end-to-end web apps with Vue, Nuxt, React and Angular, UI with Tailwind, and backends with Node.js, Express and TypeScript. I integrate AI solutions through APIs, and work with Supabase and InsForge as backend. I also use MongoDB and PostgreSQL (including MCP workflows). Strong experience with WordPress, Elementor and Voxel, deploying on AWS and Microsoft Cloud. Looking for a team where I can deliver real product, clean code and fast iteration.',
+    'about.description1': 'I\'m Alvaro, a full stack developer based in Madrid. I work with Spec-Driven Development (SDD / Specdev): the spec is the source of truth and code is built from it. I ship web apps with Vue, Nuxt, React and Angular, UI with Tailwind, backends with Node.js, Express and TypeScript, plus Spring Boot microservices. I integrate AI solutions through APIs, and work with Supabase and InsForge as backend. I also use MongoDB and PostgreSQL (including MCP workflows). Strong experience with WordPress, Elementor and Voxel, deploying on AWS and Microsoft Cloud. Looking for a team where I can deliver real product, clean code and fast iteration.',
     'about.education': 'Education:',
     'about.education.degree': 'Certificado Mongo DB bootcamp ',
     'about.education.school': 'Fullstack Developer Ironhack (MCA) ',
