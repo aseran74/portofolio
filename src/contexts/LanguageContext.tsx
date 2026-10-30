@@ -24,13 +24,13 @@ const translations = {
     'hero.hello': 'Hola',
     'hero.name': 'Alvaro Serrano',
     'hero.title': 'Desarrollador Full Stack',
-    'hero.description': 'Construyo productos con Spec-Driven Development (SDD), microservicios Spring Boot, Vue/Nuxt, IA vía API y backends en Supabase e InsForge.',
+    'hero.description': 'Productos con SDD, Angular, Nuxt, React y Flutter; microservicios Spring Boot, IA vía API, AWS y Microsoft Cloud. Diseño con skills personalizadas.',
     'hero.cta': 'Ver mis trabajos',
     'hero.contact': 'Contáctame',
     
     // About
     'about.title': 'Sobre mí',
-    'about.description1': 'Soy Alvaro, desarrollador full stack en Madrid. Trabajo con Spec-Driven Development (SDD / Specdev): la spec es la fuente de verdad y el código se construye a partir de ella. Creo aplicaciones web con Vue, Nuxt, React y Angular, UI con Tailwind, backends con Node.js, Express y TypeScript, y también microservicios con Spring Boot. Integro soluciones de IA mediante APIs, y trabajo con Supabase e InsForge como backend. También uso MongoDB y PostgreSQL (incluyendo flujos MCP). Experiencia sólida en WordPress, Elementor y Voxel, y despliegue en AWS y Microsoft Cloud. Busco un equipo donde aportar producto real, código limpio y velocidad de entrega.',
+    'about.description1': 'Soy Alvaro, desarrollador full stack en Madrid. Trabajo con Spec-Driven Development (SDD / Specdev): la spec es la fuente de verdad y el código se construye a partir de ella. Creo apps web y móviles con Angular, Nuxt, React, Vue y Flutter, UI con Tailwind, backends con Node.js, Express y TypeScript, y microservicios con Spring Boot. Aplico prácticas de diseño únicas con skills personalizadas para que cada producto tenga identidad propia. Integro IA mediante APIs, backends en Supabase e InsForge, MongoDB y PostgreSQL (incluyendo MCP), y despliego en AWS y Microsoft Cloud. También WordPress, Elementor y Voxel. Busco un equipo donde aportar producto real, código limpio y velocidad de entrega.',
  
     'about.education': 'Educación:',
     'about.education.degree': 'Certificado en Mongo db  (MCA)',
@@ -99,13 +99,13 @@ const translations = {
     'hero.hello': 'Hello',
     'hero.name': 'Alvaro Serrano',
     'hero.title': 'Full Stack Developer',
-    'hero.description': 'I build products with Spec-Driven Development (SDD), Spring Boot microservices, Vue/Nuxt, AI via APIs, and backends on Supabase and InsForge.',
+    'hero.description': 'Products with SDD, Angular, Nuxt, React and Flutter; Spring Boot microservices, AI via APIs, AWS and Microsoft Cloud. Design with custom skills.',
     'hero.cta': 'See my work',
     'hero.contact': 'Contact me',
     
     // About
     'about.title': 'About me',
-    'about.description1': 'I\'m Alvaro, a full stack developer based in Madrid. I work with Spec-Driven Development (SDD / Specdev): the spec is the source of truth and code is built from it. I ship web apps with Vue, Nuxt, React and Angular, UI with Tailwind, backends with Node.js, Express and TypeScript, plus Spring Boot microservices. I integrate AI solutions through APIs, and work with Supabase and InsForge as backend. I also use MongoDB and PostgreSQL (including MCP workflows). Strong experience with WordPress, Elementor and Voxel, deploying on AWS and Microsoft Cloud. Looking for a team where I can deliver real product, clean code and fast iteration.',
+    'about.description1': 'I\'m Alvaro, a full stack developer based in Madrid. I work with Spec-Driven Development (SDD / Specdev): the spec is the source of truth and code is built from it. I ship web and mobile apps with Angular, Nuxt, React, Vue and Flutter, UI with Tailwind, backends with Node.js, Express and TypeScript, plus Spring Boot microservices. I apply unique design practices with custom skills so each product has its own identity. I integrate AI through APIs, backends on Supabase and InsForge, MongoDB and PostgreSQL (including MCP), and deploy on AWS and Microsoft Cloud. Also WordPress, Elementor and Voxel. Looking for a team where I can deliver real product, clean code and fast iteration.',
     'about.education': 'Education:',
     'about.education.degree': 'Certificado Mongo DB bootcamp ',
     'about.education.school': 'Fullstack Developer Ironhack (MCA) ',
