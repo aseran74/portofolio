@@ -16,14 +16,12 @@ import React from 'react';
 
 const ScrollAnimationComponent = ScrollAnimation as unknown as React.ComponentType<any>;
 
-const shippingStack = ['Vue', 'Nuxt', 'Flutter', 'Supabase', 'InsForge', 'IA vía API', 'Google Play'];
-const growingStack = ['Spring Boot', 'Angular', 'React', 'AWS', 'Microsoft Cloud'];
+const shippingStackEs = ['Vue', 'Nuxt', 'Angular', 'React', 'Flutter', 'Spring Boot', 'InsForge', 'Supabase', 'AWS', 'Microsoft Cloud', 'IA vía API', 'Google Play'];
+const shippingStackEn = ['Vue', 'Nuxt', 'Angular', 'React', 'Flutter', 'Spring Boot', 'InsForge', 'Supabase', 'AWS', 'Microsoft Cloud', 'AI via API', 'Google Play'];
 
 export function About() {
   const { t, language } = useLanguage()
-  const shipping = language === 'en'
-    ? ['Vue', 'Nuxt', 'Flutter', 'Supabase', 'InsForge', 'AI via API', 'Google Play']
-    : shippingStack
+  const shipping = language === 'en' ? shippingStackEn : shippingStackEs
 
   return (
     <Container id="about">
@@ -33,6 +31,7 @@ export function About() {
         </ScrollAnimationComponent>
         <ScrollAnimationComponent animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p className="lead">{t('about.description1')}</p>
+          <p style={{ whiteSpace: 'pre-line', marginTop: '1rem' }}>{t('about.description2')}</p>
         </ScrollAnimationComponent>
 
         <ScrollAnimationComponent animateIn="fadeInLeft" delay={0.15 * 1000}>
@@ -66,15 +65,6 @@ export function About() {
                 <p className="stack-label">{t('about.stack.shipping.subtitle')}</p>
                 <ul className="stack-tags">
                   {shipping.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              </div>
-              <div className="stack-column">
-                <h4>{t('about.stack.growing.title')}</h4>
-                <p className="stack-label">{t('about.stack.growing.subtitle')}</p>
-                <ul className="stack-tags growing">
-                  {growingStack.map((item) => (
                     <li key={item}>{item}</li>
                   ))}
                 </ul>

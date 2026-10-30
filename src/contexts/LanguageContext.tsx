@@ -31,6 +31,7 @@ const translations = {
     // About
     'about.title': 'Sobre mí',
     'about.description1': 'Fullstack: del contrato a producción.',
+    'about.description2': 'Frontend y móvil: Vue, Nuxt, Angular, React y Flutter, con apps publicadas en Google Play (Android).\nBackend: microservicios con Spring Boot, InsForge, Supabase, AWS y Microsoft Cloud.',
     'about.sdd.title': 'Spec-Driven Development, en la práctica',
     'about.sdd.intro': 'La especificación es la fuente de verdad y el código se deriva de ella. Así el agente de IA no adivina lo que quiero, y yo puedo cambiar de rumbo sin reescribirlo todo.',
     'about.sdd.step1.title': '1. Especificar',
@@ -40,7 +41,7 @@ const translations = {
     'about.sdd.step3.title': '3. Validar',
     'about.sdd.step3.text': 'Se comprueba el resultado contra la spec. Si algo cambia, se cambia primero la spec.',
     'about.stack.title': 'Stack',
-    'about.stack.subtitle': 'Lo que uso para construir y entregar, y lo que estoy ampliando.',
+    'about.stack.subtitle': 'Lo que uso para construir y entregar en producto real.',
     'about.stack.shipping.title': 'Construyo y entrego',
     'about.stack.shipping.subtitle': 'En producto real.',
     'about.stack.growing.title': 'Ampliando',
@@ -119,6 +120,7 @@ const translations = {
     // About
     'about.title': 'About me',
     'about.description1': 'Full stack: from contract to production.',
+    'about.description2': 'Frontend & mobile: Vue, Nuxt, Angular, React and Flutter, with apps published on Google Play (Android).\nBackend: Spring Boot microservices, InsForge, Supabase, AWS and Microsoft Cloud.',
     'about.sdd.title': 'Spec-Driven Development, in practice',
     'about.sdd.intro': 'The specification is the source of truth and code is derived from it. That way the AI agent does not guess what I want, and I can change direction without rewriting everything.',
     'about.sdd.step1.title': '1. Specify',
@@ -128,7 +130,7 @@ const translations = {
     'about.sdd.step3.title': '3. Validate',
     'about.sdd.step3.text': 'The result is checked against the spec. If something changes, the spec changes first.',
     'about.stack.title': 'Stack',
-    'about.stack.subtitle': 'What I use to build and ship, and what I am expanding.',
+    'about.stack.subtitle': 'What I use to build and ship in real products.',
     'about.stack.shipping.title': 'I build and ship',
     'about.stack.shipping.subtitle': 'In real products.',
     'about.stack.growing.title': 'Expanding',
