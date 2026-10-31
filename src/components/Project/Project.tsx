@@ -37,7 +37,7 @@ export function Project() {
                   rel="noreferrer"
                   aria-label="Holydeo en Google Play"
                 >
-                  <img src="/google-play-badge.png" alt="Disponible en Google Play" style={{ width: '10rem', objectFit: 'contain' }} />
+                  <img src="/Logo.png" alt="Disponible en Google Play" style={{ width: '10rem', objectFit: 'contain' }} />
                 </a>
               </div>
             </header>
@@ -78,7 +78,7 @@ export function Project() {
                   rel="noreferrer"
                   aria-label="Jubilalia en Google Play"
                 >
-                  <img src="/google-play-badge.png" alt="Disponible en Google Play" style={{ width: '10rem', objectFit: 'contain' }} />
+                  <img src="/Logo.png" alt="Disponible en Google Play" style={{ width: '10rem', objectFit: 'contain' }} />
                 </a>
               </div>
             </header>
