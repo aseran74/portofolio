@@ -31,6 +31,14 @@ export function Project() {
                 <a href="https://holydeo.vercel.app" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.holydeo.app"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Holydeo en Google Play"
+                >
+                  <img src="/Logo.png" alt="Disponible en Google Play" style={{ width: '10rem', objectFit: 'contain' }} />
+                </a>
               </div>
             </header>
             <div className="body">
@@ -63,6 +71,14 @@ export function Project() {
                 </a>
                 <a href="https://jubilalia.vercel.app" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
+                </a>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.jubilalia"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Jubilalia en Google Play"
+                >
+                  <img src="/Logo.png" alt="Disponible en Google Play" style={{ width: '10rem', objectFit: 'contain' }} />
                 </a>
               </div>
             </header>
